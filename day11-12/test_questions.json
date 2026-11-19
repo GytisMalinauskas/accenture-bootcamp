@@ -1,0 +1,146 @@
+[
+  {
+    "id": "q01",
+    "question": "How many days of paid time off (PTO) do full-time employees receive per calendar year, and what is the carryover limit?",
+    "expected_answer": "Full-time employees receive 25 days of PTO per calendar year (accruing at 2.083 days per month), in addition to local public holidays. Up to 5 unused PTO days may be carried over to the next year and must be used by March 31.",
+    "source_document": "company_handbook.pdf",
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q02",
+    "question": "How many days of bereavement leave are granted for immediate family versus extended family?",
+    "expected_answer": "Employees receive 5 days of bereavement leave for immediate family (spouse, partner, parent, child, sibling) and 2 days for extended family.",
+    "source_document": "company_handbook.pdf",
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q03",
+    "question": "Who is the primary point of contact for GDPR-related matters at NovaTech and what is their email address?",
+    "expected_answer": "The Data Protection Officer (DPO) is the primary point of contact for all GDPR-related matters and can be reached at dpo@novatech.io.",
+    "source_document": "security_policy.pdf",
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q04",
+    "question": "Within how many hours must the Security Operations Lead notify the DPO and General Counsel upon confirmation of a personal data breach?",
+    "expected_answer": "Upon confirmation of a personal data breach, the Security Operations Lead must notify the DPO and General Counsel within 2 hours.",
+    "source_document": "security_policy.pdf",
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q05",
+    "question": "How long is the NovaTech free trial and what are its workspace limits?",
+    "expected_answer": "The free trial lasts 14 days with full Professional-tier features and no credit card required, but trial workspaces are limited to 10 users and 5 GB of storage.",
+    "source_document": "product_guide.pdf",
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q06",
+    "question": "What were NovaTech's Operating Income and Operating Margin in Q1 2026?",
+    "expected_answer": "In Q1 2026, NovaTech's Operating Income was EUR 280,000 and its Operating Margin was 5.8%.",
+    "source_document": "quarterly_report_q1_2026.pdf",
+    "difficulty": "easy",
+    "type": "factual"
+  },
+  {
+    "id": "q07",
+    "question": "Compare the Professional and Enterprise support tiers in terms of support hours and dedicated support manager availability.",
+    "expected_answer": "Professional customers receive support during extended business hours (06:00-22:00 CET, Monday to Friday). Enterprise customers receive 24/7 support and include a dedicated support manager (listed at EUR 2,000/month as Enterprise only in pricing).",
+    "source_document": "product_guide.pdf",
+    "difficulty": "medium",
+    "type": "comparison"
+  },
+  {
+    "id": "q08",
+    "question": "What security assessments are required for third-party vendors handling Confidential data versus Restricted data?",
+    "expected_answer": "Vendors handling Confidential data must complete the full Vendor Security Questionnaire (VSQ-Full, 120 questions) and provide evidence of a SOC 2 Type II audit completed within the past 12 months. Vendors handling Restricted data must meet all Confidential-tier requirements plus undergo an on-site or virtual security audit by the NovaTech Security Team.",
+    "source_document": "security_policy.pdf",
+    "difficulty": "medium",
+    "type": "comparison"
+  },
+  {
+    "id": "q09",
+    "question": "Which Q1 2026 KPIs were below target, and what were their actual values compared to target?",
+    "expected_answer": "Two Q1 2026 KPIs were below target: Gross Churn (Quarterly) was 3.2% against a 2.5% target, and NPS (Insight) was 46 against a 48 target.",
+    "source_document": "quarterly_report_q1_2026.pdf",
+    "difficulty": "medium",
+    "type": "synthesis"
+  },
+  {
+    "id": "q10",
+    "question": "What are the three Board Requests in the Q1 2026 quarterly report and their estimated costs?",
+    "expected_answer": "1) Competitive Response Budget: EUR 150K in Q2 marketing spend to counter Planwise; 2) Lisbon Office Expansion: EUR 120K incremental annual lease cost for 40 additional seats; 3) AI Infrastructure Investment: EUR 280K in Q2-Q3 for a dedicated GPU compute environment for NovaTech Copilot.",
+    "source_document": "quarterly_report_q1_2026.pdf",
+    "difficulty": "medium",
+    "type": "synthesis"
+  },
+  {
+    "id": "q11",
+    "question": "What pricing change did James Park propose for the Starter tier, and how much additional ARR did he estimate it would generate?",
+    "expected_answer": "James proposed increasing the Starter tier from EUR 29 to EUR 39/user/month for new customers only starting Q3 2026 (grandfathering existing customers for 12 months), estimating it would add approximately EUR 1.8M in ARR over the next 12 months.",
+    "source_document": "meeting_notes.pdf",
+    "difficulty": "medium",
+    "type": "synthesis"
+  },
+  {
+    "id": "q12",
+    "question": "When is a Data Protection Impact Assessment (DPIA) mandatory, and who reviews and receives escalations?",
+    "expected_answer": "A DPIA is mandatory before high-risk processing such as large-scale processing of special category data, systematic monitoring of public areas, automated decision-making with legal or significant effects, or processing personal data with new technologies. The DPO reviews all DPIA findings and escalates unresolved risks to the CISO and General Counsel.",
+    "source_document": "security_policy.pdf",
+    "difficulty": "medium",
+    "type": "synthesis"
+  },
+  {
+    "id": "q13",
+    "question": "How does the remote work policy decided in the leadership meeting notes differ from the January 2026 Employee Handbook?",
+    "expected_answer": "The Employee Handbook allows up to 3 remote work days per week (and 1 day/week during the 6-month probation), whereas the leadership meeting notes record a decision updating the policy to up to 4 remote work days per week effective Q3 2026, with Tuesday as the mandatory company-wide in-office day.",
+    "source_document": "company_handbook.pdf, meeting_notes.pdf",
+    "difficulty": "hard",
+    "type": "reasoning"
+  },
+  {
+    "id": "q14",
+    "question": "What do the documents say about NovaTech's Lisbon office capacity, expansion plans, and core collaboration hours?",
+    "expected_answer": "The Employee Handbook lists ~110 employees at Avenida da Liberdade 245 in Lisbon. The January 2026 meeting notes describe a 2,000 sqm lease in Parque das Nacoes starting April 1 with initial capacity for 45 people (expandable to 80) and set core collaboration hours of 10:00-15:00 CET. The Q1 2026 report requests EUR 120K for additional floor space in Parque das Nacoes for 40 seats.",
+    "source_document": "company_handbook.pdf, meeting_notes.pdf, quarterly_report_q1_2026.pdf",
+    "difficulty": "hard",
+    "type": "synthesis"
+  },
+  {
+    "id": "q15",
+    "question": "How is NovaTech responding to the competitive threat from Planwise and the EU AI Act requirements?",
+    "expected_answer": "To counter Planwise Intelligence, NovaTech plans to accelerate ProjectHub v3.3 AI capabilities, increase sales battle cards, commission an analyst comparison report, and request EUR 150K in Q2 marketing spend. For the EU AI Act, NovaTech's AI features are expected to fall under 'limited risk' transparency obligations, with EUR 85K budgeted in H2 2026 for compliance.",
+    "source_document": "quarterly_report_q1_2026.pdf",
+    "difficulty": "hard",
+    "type": "reasoning"
+  },
+  {
+    "id": "q16",
+    "question": "How did NovaTech's ARR change from FY 2025 to Q1 2026, and how did Q1 2026 ARR compare to target?",
+    "expected_answer": "FY 2025 ARR was approximately EUR 17M (Employee Handbook). By Q1 2026, ARR reached EUR 18.2M (23% YoY growth), exceeding the Q1 2026 target of EUR 17.5M.",
+    "source_document": "company_handbook.pdf, quarterly_report_q1_2026.pdf",
+    "difficulty": "hard",
+    "type": "comparison"
+  },
+  {
+    "id": "q17",
+    "question": "Exactly how many weeks of paid parental leave do employees in the Munich office receive?",
+    "expected_answer": "The documents do not specify the number of weeks of parental leave; the Employee Handbook states only that parental leave is per local statutory requirements with 8 weeks' notice to HR.",
+    "source_document": null,
+    "difficulty": "hard",
+    "type": "unanswerable"
+  },
+  {
+    "id": "q18",
+    "question": "What is CEO Sarah Chen's annual base salary and equity compensation package?",
+    "expected_answer": "The provided documents do not contain information about Sarah Chen's salary or equity compensation.",
+    "source_document": null,
+    "difficulty": "hard",
+    "type": "unanswerable"
+  }
+]
