@@ -1,0 +1,704 @@
+[
+  {
+    "id": "q01",
+    "question": "How many days of paid time off (PTO) do full-time employees receive per calendar year, and what is the carryover limit?",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 11178,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because there are no contradictions, so the actual output fully aligns with the retrieval context—great job!",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the response stayed fully focused on the PTO question and did not include any irrelevant statements. It’s as relevant as it can be.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.05,
+        "success": false,
+        "reason": "The score is 0.05 because most of the retrieval context is unrelated, such as “mandatory in-office day per week,” “support availability information for customer tiers,” and “business expenses,” which do not answer the PTO question. However, it does contain the exact policy: “All full-time employees receive twenty-five (25) days of paid time off (PTO) per calendar year” and “Unused PTO may be carried over ... up to a maximum of five (5) days,” so it is only minimally relevant.",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because sentence 1 is fully supported by node 1 in retrieval context: it confirms 25 PTO days per year with 2.083 days accrued per month and adds local public holidays, and also confirms up to 5 carried-over PTO days that must be used by March 31. Great match!",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the relevant information is ranked first in the retrieval contexts: node 1 directly answers that full-time employees receive 'twenty-five (25) days' of PTO and that unused PTO can be carried over 'up to a maximum of five (5) days.' The remaining nodes are irrelevant and correctly placed lower, since they discuss PTO procedures, capacity planning, support tiers, remote-work policy, time tracking, or other leave types rather than the PTO amount and carryover limit asked.",
+        "error": null
+      }
+    }
+  },
+  {
+    "id": "q02",
+    "question": "How many days of bereavement leave are granted for immediate family versus extended family?",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 4343,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because there are no contradictions; the actual output appears fully faithful to the retrieval context. Great job!",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the response stays fully focused on the bereavement leave question and includes no irrelevant statements. It’s already at the highest possible score since there’s nothing extraneous to improve.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.07692307692307693,
+        "success": false,
+        "reason": "The score is 0.08 because almost all of the retrieved material is unrelated, e.g. it talks about “Parental Leave,” “Marriage Leave,” “Jury Duty,” PTO, sick leave, remote work, and office policy, none of which answer the bereavement question. Only a small part is relevant: “Bereavement Leave is 5 days for immediate family and 2 days for extended family” and “Bereavement Leave applies to immediate family members such as spouse, partner, parent, child, and sibling.”",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because sentence 1 is fully supported by node 1 in retrieval context, which states 5 days of bereavement leave for immediate family and 2 days for extended family, matching the expected output exactly. Great recall!",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the relevant retrieval context is ranked first in node 1 and directly answers the question with \"Bereavement Leave 5 days (immediate family) / 2 days (extended family)\". The later nodes in retrieval contexts are all irrelevant and correctly placed below it, so no lower-ranking irrelevant node disrupts the ordering.",
+        "error": null
+      }
+    }
+  },
+  {
+    "id": "q03",
+    "question": "Who is the primary point of contact for GDPR-related matters at NovaTech and what is their email address?",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 4126,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because there are no contradictions, so the actual output aligns perfectly with the retrieval context. Great job!",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the response fully addresses the GDPR contact question with no irrelevant statements, so it is completely relevant and clear.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.1388888888888889,
+        "success": false,
+        "reason": "The score is 0.14 because most of the context is unrelated compliance/handbook material, such as \"For questions about this handbook\" with \"hr@novatech-solutions.com\" and \"Data Processing Agreement (DPA) included with all contracts,\" which do not answer the question. Only a small part is relevant: \"The Data Protection Officer (DPO) serves as the primary point of contact for all GDPR-related matters and can be reached at dpo@novatech.io,\" though there is also a conflicting email, \"dpo@novatech-solutions.com.\"",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because sentence 1 is fully supported by node 2 in retrieval context, which states that the Data Protection Officer (DPO) is the primary point of contact for all GDPR-related matters and can be reached at dpo@novatech.io. Great match!",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 0.5,
+        "success": false,
+        "reason": "The score is 0.50 because the key relevant answer appears in node 2 of the retrieval contexts, which correctly states that 'The Data Protection Officer (DPO) serves as the primary point of contact for all GDPR-related matters and can be reached at dpo@novatech.io.' However, it is not ranked higher since node 1 is an irrelevant node that only mentions 'hr@novatech-solutions.com' for handbook questions, not GDPR matters, so an irrelevant node is placed above the useful one. The score is at this level because the relevant node is present near the top, but several later nodes remain irrelevant and do not improve the ranking.",
+        "error": null
+      }
+    }
+  },
+  {
+    "id": "q04",
+    "question": "Within how many hours must the Security Operations Lead notify the DPO and General Counsel upon confirmation of a personal data breach?",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 3811,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because there are no contradictions, so the actual output appears fully aligned with the retrieval context. Great job!",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the response is fully aligned with the input and contains no irrelevant statements. It directly addresses the question without adding unnecessary content, so it is already at the highest possible relevancy.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.10810810810810811,
+        "success": false,
+        "reason": "The score is 0.11 because most of the retrieval context is about unrelated items like \"The DPO assesses whether the breach is likely to result in a risk\" and \"notify the relevant supervisory authority within 72 hours,\" while only one statement directly answers the question: \"Upon confirmation of a personal data breach, the Security Operations Lead must notify the DPO and the General Counsel within 2 hours.\"",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because sentence 1 is fully supported by node 1 in retrieval context, which states that upon confirmation of a personal data breach, the Security Operations Lead must notify the DPO and General Counsel within 2 hours. Great match!",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the first node in the retrieval contexts directly states that the Security Operations Lead must notify the DPO and General Counsel within 2 hours, so the key answer is ranked first. The later nodes are irrelevant to the question—e.g., node 2 is about notifying affected individuals \"no later than 7 days,\" node 3 covers P3 incident acknowledgment \"within 4 hours,\" and node 4 concerns a different P1 escalation \"within 1 hour\" to other roles—so they are correctly placed below the relevant node.",
+        "error": null
+      }
+    }
+  },
+  {
+    "id": "q05",
+    "question": "How long is the NovaTech free trial and what are its workspace limits?",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 4583,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 0.75,
+        "success": true,
+        "reason": "The score is 0.75 because the actual output cites product_guide.pdf page 11, but the retrieval context does not mention that source or page, so this citation cannot be verified from the provided facts.",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the response fully addresses the free trial length and workspace limits with no irrelevant content, so it is perfectly relevant.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.18604651162790697,
+        "success": false,
+        "reason": "The score is 0.19 because most of the retrieved text is unrelated, such as statements about \"retention periods for audit logs,\" \"service uptime guarantees,\" and \"employee onboarding.\" Only one key line answers the question: \"All tiers include a 14-day free trial with full Professional-tier features\" and \"Trial workspaces are limited to 10 users and 5 GB of storage,\" so the context is only weakly relevant.",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because sentence 1 is fully supported by node 7 in retrieval context, which states the 14-day free trial, full Professional-tier features, no credit card required, and the 10-user/5 GB workspace limits exactly.",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 0.14285714285714285,
+        "success": false,
+        "reason": "The score is 0.14 because the only relevant node in the retrieval contexts appears at rank 7, where it states \"5.4 Free Trial\" and says \"All tiers include a 14-day free trial... Trial workspaces are limited to 10 users and 5 GB of storage.\" This is the right answer, but it is ranked far below six irrelevant nodes that discuss audit logs, SLAs, leave policies, office location, acceptable use, and GDPR, so the relevant information is not surfaced early enough.",
+        "error": null
+      }
+    }
+  },
+  {
+    "id": "q06",
+    "question": "What were NovaTech's Operating Income and Operating Margin in Q1 2026?",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 5668,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 0.4,
+        "success": false,
+        "reason": "The score is 0.40 because the actual output appears to assert details not supported by the retrieval context, including a reference to Page 13, a note that financial statements are provided under separate cover by the Finance department, and claims about whether income statement details like Operating Income are included or omitted. The context does not confirm these meta-claims, so the response is only partially faithful.",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the response fully addresses NovaTech's Q1 2026 Operating Income and Operating Margin without any irrelevant information, so it is perfectly relevant.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.1282051282051282,
+        "success": false,
+        "reason": "The score is 0.13 because the retrieval context mostly contains unrelated details like \"ARR reached EUR 18.2 million,\" \"Cash and cash equivalents at quarter-end stood at EUR 6.1M,\" and customer/headcount metrics, which do not answer the question about Operating Income and Operating Margin. The only relevant part is a revenue summary — \"Appendix A: Q1 2026 Financial Statements Summary\" and \"Total Revenue 4,800,000\" — but it still does not provide the requested operating income or margin.",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 0.0,
+        "success": false,
+        "reason": "The score is 0.00 because sentence 1 in the expected output cannot be attributed to node 7 in retrieval context: node 7 mentions an AI investment of EUR 280K and revenue figures, but it does not state Q1 2026 Operating Income or Operating Margin.",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 0.14285714285714285,
+        "success": false,
+        "reason": "The score is 0.14 because the only relevant node in the retrieval contexts appears at rank 7, where it mentions \"Appendix A: Q1 2026 Financial Statements\" and \"Detailed financial statements are provided under separate cover by the Finance department,\" which is useful for the operating income/margin question. However, six irrelevant nodes are ranked ahead of it: rank 1 discusses \"Annual Recurring Revenue (ARR) reached EUR 18.2 million\" and \"Quarterly recognized revenue came in at EUR 4.8 million\" instead of operating results, rank 2 focuses on \"Cash Position\" and \"Customer Metrics,\" rank 3 on \"People and Organization\" and \"Headcount Summary,\" rank 4 on an employee handbook with \"fiscal year 2025 ... annual recurring revenue of approximately €17 million,\" rank 5 on report export formats and the \"NovaTech Insight\" product overview, and rank 6 on a company overview with \"Founded in 2017.\" Because the relevant node is buried below multiple irrelevant retrieval-context nodes, the precision is low rather than higher.",
+        "error": null
+      }
+    }
+  },
+  {
+    "id": "q07",
+    "question": "Compare the Professional and Enterprise support tiers in terms of support hours and dedicated support manager availability.",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 5949,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because there are no contradictions, so the actual output fully aligns with the retrieval context. Great job!",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the response fully addresses the comparison of support hours and dedicated support manager availability with no irrelevant content. It can’t be higher since 1.00 is already a perfect match to the input.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.17857142857142858,
+        "success": false,
+        "reason": "The score is 0.18 because most retrieved text is off-topic, such as \"Advanced audit logging\" and \"Disaster recovery (cross-region)\" or \"projects\" and \"users\" limits, which do not answer the comparison. Only a small part is relevant: \"Enterprise customers receive 24/7 support with a dedicated support manager\" and \"Professional customers receive support during extended business hours (06:00 - 22:00 CET, Monday to Friday).\"",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because both sentence 1 and sentence 2 are fully supported by node(s) in retrieval context: node 1 and node 2 back the professional support hours and business-hours live chat details, while node 1 and node 3 support the enterprise 24/7 support plus dedicated support manager at EUR 2,000/month. Great recall.",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 0.9428571428571428,
+        "success": true,
+        "reason": "The score is 0.94 because the most relevant nodes in retrieval contexts are ranked first: node 1 directly says 'Enterprise customers receive 24/7 support with a dedicated support manager' while 'Professional customers receive support during extended business hours,' and node 2 reinforces this with 'Yes (business hours)' vs 'Yes (24/7)' and 'Enterprise only.' It is not a perfect 1.0 because a few irrelevant nodes are mixed into the ranking later, such as node 5 about 'Ergonomic assessment' and 'Mental Health Support,' node 6 about a product issue and support tickets, and node 8 about feature limits like 'Custom fields' and 'Automation rules,' which should be ranked lower than the relevant support-tier nodes.",
+        "error": null
+      }
+    }
+  },
+  {
+    "id": "q08",
+    "question": "What security assessments are required for third-party vendors handling Confidential data versus Restricted data?",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 6648,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because there are no contradictions, so the actual output appears fully aligned with the retrieval context. Great job!",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the response fully addressed the question about security assessment requirements for third-party vendors handling Confidential versus Restricted data, with no irrelevant statements to detract from relevance.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.4594594594594595,
+        "success": false,
+        "reason": "The score is 0.46 because much of the context is off-topic, such as references to \"Public or Internal data,\" employee VPN use, GDPR/CCPA, and \"all employees\" training, which do not answer vendor assessment requirements. However, the retrieval does include the key policy: \"All third-party vendors who access, process, or store NovaTech data must complete a security assessment before engagement and annually thereafter,\" with stricter requirements for Restricted data: vendors must \"meet all Confidential-tier requirements plus undergo an on-site (or virtual) security audit.\"",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because sentence 1 is fully supported by node 1 in retrieval context for both the Confidential-data requirements and the Restricted-data escalation, with no missing or unsupported details.",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the most relevant retrieval context is ranked first and directly answers the question with the required assessments: \"Vendors handling Confidential data must complete the full NovaTech Vendor Security Questionnaire (VSQ-Full, 120 questions) and provide evidence of a SOC 2 Type II audit completed within the past 12 months\" and \"Vendors handling Restricted data must meet all Confidential-tier requirements plus undergo an on-site (or virtual) security audit conducted by the NovaTech Security Team.\" The remaining nodes in retrieval contexts are correctly ranked lower because they are irrelevant to vendor security assessments, covering topics like \"Contractual Requirements,\" data definitions, VPN/GDPR/CCPA, employee training, labeling, and access controls instead.",
+        "error": null
+      }
+    }
+  },
+  {
+    "id": "q09",
+    "question": "Which Q1 2026 KPIs were below target, and what were their actual values compared to target?",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 6586,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because there are no contradictions, so the actual output aligns perfectly with the retrieval context.",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the response fully addresses the question about Q1 2026 KPIs below target and their actual versus target values, with no irrelevant statements included. Great job staying perfectly on topic.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.34782608695652173,
+        "success": false,
+        "reason": "The score is 0.35 because the context mixes a few directly useful KPI comparisons, like 'Gross Churn (Quarterly) was 3.2% actual versus 2.5% target and below target,' 'NPS (Insight) was 46 actual versus 48 target and below target,' and 'Employee Engagement was 78/100 actual versus 80/100 target and below target,' with lots of unrelated material such as 'Research & Development was EUR (1,680,000)' and 'Operating Margin was 5.8%' that are not KPI target misses. So it has some relevance, but not enough to fully answer the Q1 2026 below-target KPI question.",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because sentence 1 is fully supported by node 2 in retrieval context, which explicitly states both Q1 2026 KPIs were below target: Gross Churn (Quarterly) at 3.2% vs 2.5% and NPS (Insight) at 46 vs 48. Great recall!",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 0.5,
+        "success": false,
+        "reason": "The score is 0.50 because the first retrieval context node is an irrelevant node that focuses on above-target KPIs like 'ARR' and 'ARR Growth (YoY)', while the key below-target evidence appears later in the retrieval contexts at node 2 with 'Gross Churn (Quarterly) 3.2% 2.5% Below target' and 'NPS (Insight) 46 48 Below target'. Node 4 is also relevant with 'Employee Engagement 78/100 80/100 Below target', but it is ranked after more irrelevant nodes, so the relevant nodes are not consistently placed at the top. The score is only متوسط because relevant nodes do appear, but it is not higher since several irrelevant nodes are ranked ahead of them and push the useful Q1 2026 KPI details down.",
+        "error": null
+      }
+    }
+  },
+  {
+    "id": "q10",
+    "question": "What are the three Board Requests in the Q1 2026 quarterly report and their estimated costs?",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 9591,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 0.5,
+        "success": false,
+        "reason": "The score is 0.50 because the output overstates structure and labels not supported by the context: it claims a Page 12 'Board Requests' section with only two listed requests, and gives specific headings like 'Competitive Response Budget,' 'Lisbon Office Expansion,' and '3. AI Infrastructure Investment,' while the context only confirms the marketing spend, lease extension, and GPU compute requests without those exact section titles or numbering.",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the response stays fully focused on identifying the three Board Requests in the Q1 2026 quarterly report and their estimated costs, with no irrelevant statements.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.16216216216216217,
+        "success": false,
+        "reason": "The score is 0.16 because most of the retrieved material is unrelated to the question, such as “ARR reached EUR 18.2 million,” “Appendix A: Q1 2026 Financial Statements Summary,” and roadmap/infrastructure content like “ProjectHub v3.3 (Advanced Reporting) — Q2 2026.” Only a small part is relevant, including “9. Board Requests,” “Competitive Response Budget... EUR 150K,” “Lisbon Office Expansion... Estimated incremental annual lease cost: EUR 120K,” and “AI Infrastructure Investment... Estimated Q2-Q3 cost: EUR 280K,” but the context still does not clearly provide all three Q1 2026 board requests in a complete, directly matched way.",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because all three sentences are fully supported by the retrieval context: sentence 1 matches node 5’s EUR 150K competitive response budget, sentence 2 matches node 5’s Lisbon office expansion with EUR 120K lease cost for 40 seats, and sentence 3 matches node 3 and node 7’s AI infrastructure investment at EUR 280K for the GPU compute environment.",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 0.36944444444444446,
+        "success": false,
+        "reason": "The score is 0.37 because the relevant nodes in the retrieval contexts are not ranked early enough: the first relevant node appears at rank 3 with \"This directly matches one of the expected items: '3. AI Infrastructure Investment... Estimated Q2-Q3 cost: EUR 280K.'\", then another at rank 5 with \"This explicitly contains two of the requested board items: 'Competitive Response Budget: Approval for an additional EUR 150K...' and 'Lisbon Office Expansion... Estimated incremental annual lease cost: EUR 120K.'\", and a supporting relevant node only at rank 8 with \"Budget request: EUR 1.2M broken down as... Infrastructure (GPU compute for training and hosting): EUR 280K.\" The score is not higher because several irrelevant nodes in the retrieval contexts are ranked ahead of these, including rank 1 \"It does not mention any Board Requests or their estimated costs.\", rank 2 \"it does not list the three Board Requests or their costs.\", rank 4 \"it does not identify any Board Requests or estimate costs.\", rank 6 \"it does not state any Board Requests or their estimated costs.\", and rank 7 \"it is unrelated to the Board Requests asked for.\"",
+        "error": null
+      }
+    }
+  },
+  {
+    "id": "q11",
+    "question": "What pricing change did James Park propose for the Starter tier, and how much additional ARR did he estimate it would generate?",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 4998,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 0.8,
+        "success": true,
+        "reason": "The score is 0.80 because the actual output says James Park proposed the Starter tier increase, but the context only mentions James and does not include the surname Park.",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the response stayed fully on topic and directly addressed the pricing change and ARR estimate with no irrelevant statements. It couldn’t be higher since 1.00 already reflects perfect relevance.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.15789473684210525,
+        "success": false,
+        "reason": "The score is 0.16 because most of the retrieved text is off-topic or only loosely related, e.g. it talks about “underpriced relative to competitors like Asana and Monday.com,” “hurt conversion rates,” and even unrelated items like “enterprise prospects” and “TCO analysis.” The relevant part does answer the question, stating James proposed raising Starter from “EUR 29 to EUR 39/user/month” and estimated it would add “approximately EUR 1.8M in ARR over the next 12 months,” but the surrounding context is largely irrelevant.",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because sentence 1 is fully supported by node 1 in retrieval context, which states the Starter tier increase to EUR 39/user/month for new customers only in Q3 2026, the 12-month grandfathering for existing customers, and the expected EUR 1.8M ARR uplift over the next 12 months.",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 0.7892857142857143,
+        "success": true,
+        "reason": "The score is 0.79 because the most relevant nodes in retrieval contexts are ranked near the top: node 1 directly states the proposal to \"Increase the Starter tier from EUR 29 to EUR 39/user/month\" and the expected \"EUR 1.8M in ARR,\" node 2 gives the current Starter price, and node 4 supports the same pricing direction with the EUR 35/EUR 37/EUR 39 scenarios. It is not higher because several irrelevant nodes appear before or among the useful ones, such as node 3 about a \"Starter Tier\" table with no pricing change or ARR, node 5 about an AI budget request and \"EUR 3-4M in incremental ARR,\" and node 6 about CRM tools, all of which should be ranked lower than the yes nodes. The score is still fairly strong because the key answer is present early, but the later nodes 7 and 8 only provide looser Starter-tier background like \"churn being concentrated in the Starter tier\" and \"Starter 512 (60.5%),\" which are less directly helpful than the top-ranked evidence.",
+        "error": null
+      }
+    }
+  },
+  {
+    "id": "q12",
+    "question": "When is a Data Protection Impact Assessment (DPIA) mandatory, and who reviews and receives escalations?",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 7506,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because there are no contradictions between the actual output and the retrieval context, so the response appears fully faithful and well-supported.",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the response fully addresses when a DPIA is mandatory and who reviews and receives escalations, with no irrelevant statements included.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.19230769230769232,
+        "success": false,
+        "reason": "The score is 0.19 because most of the retrieved context is off-topic, such as \"The section heading '9. Breach Notification' is not relevant\" and \"The statement is about vendor contract requirements and DPA terms,\" while only a small portion directly answers the question: \"A Data Protection Impact Assessment (DPIA) is required before implementing any new processing activity that is likely to result in a high risk\" and \"The DPO reviews all DPIA findings and escalates unresolved risks to the CISO and General Counsel.\"",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the expected output is fully supported by node(s) in retrieval context: sentence 1 is covered by nodes 1 and 2 with the DPIA trigger/mandatory-before-high-risk-processing details, and sentence 2 is also directly matched by nodes 1 and 2 with the DPO review and escalation to the CISO and General Counsel. Great recall.",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 0.8875,
+        "success": true,
+        "reason": "The score is 0.89 because the most relevant node in retrieval contexts is ranked 1 and directly answers the question with \"A Data Protection Impact Assessment (DPIA) is required before implementing any new processing activity that is likely to result in a high risk\" and \"The DPO reviews all DPIA findings and escalates unresolved risks to the CISO and General Counsel.\" The score is high because several other relevant nodes are also ranked near the top, including node 2 with \"Data Protection Officer (DPO)\" as the \"primary point of contact for all GDPR-related matters\" and node 4 with \"The Security Operations Lead must notify the DPO and the General Counsel.\" However, it is not higher because irrelevant nodes are mixed into the ranking: node 3, node 6, node 7, and node 8 discuss retention, general GDPR docs, incident escalation, and vendor contracts, none of which answer when a DPIA is mandatory or who reviews/escalates it. These irrelevant nodes should be ranked below the relevant retrieval context nodes, especially below the first node and the other helpful privacy/escalation nodes.",
+        "error": null
+      }
+    }
+  },
+  {
+    "id": "q13",
+    "question": "How does the remote work policy decided in the leadership meeting notes differ from the January 2026 Employee Handbook?",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 15554,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 0.6666666666666666,
+        "success": false,
+        "reason": "The score is 0.67 because the actual output adds details not supported by the context: it mentions team coverage, role suitability, and a departmental override structure even though the context only confirms manager approval; it claims a limit of up to two in-office days that is not stated; it treats the handbook policy as active in Q1 2026 without evidence; and it adds tax and social security implications to the cross-border remote work rule, which the context does not mention.",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 0.9285714285714286,
+        "success": true,
+        "reason": "The score is 0.93 because the answer largely addressed the remote work policy difference, but it included a bit of logistical context about the Lisbon office opening and Munich that was not directly relevant, which keeps it from being a perfect match.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.5588235294117647,
+        "success": false,
+        "reason": "The score is 0.56 because much of the retrieval context is off-topic, including details like \"password rotation frequency\" and \"Document Classification: Internal -- Confidential Distribution: Leadership Team Only,\" which do not address the policy comparison. However, it does contain the key comparison points: the handbook says \"Employees in eligible roles may work remotely for up to three (3) days per week\" and the meeting decided to \"allow up to 4 days remote per week\" with \"Tuesday remains the mandatory in-office day,\" so it is partially relevant.",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because sentence 1 is fully grounded by node(s) in retrieval context: node 3 supports the handbook policy of up to 3 remote days per week (and 1 day/week during probation), while nodes 1, 2, 4, and 6 support the updated leadership decision to allow up to 4 remote days per week effective Q3 2026 with Tuesday as the mandatory in-office day.",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the relevant retrieval context nodes are ranked first through sixth and directly cover both the leadership meeting decision and the January 2026 handbook baseline, while the irrelevant retrieval context nodes at ranks 7 and 8 clearly belong lower since they are about 'Q1 Hiring Targets' and 'Password Rotation Policy Review' rather than remote work policy. This is a perfect ranking.",
+        "error": null
+      }
+    }
+  },
+  {
+    "id": "q14",
+    "question": "What do the documents say about NovaTech's Lisbon office capacity, expansion plans, and core collaboration hours?",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 8558,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 0.9230769230769231,
+        "success": true,
+        "reason": "The score is 0.92 because the actual output appears to overstate the lease extension as Board-approved, while the context only says management requested Board approval and does not confirm approval.",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 0.9166666666666666,
+        "success": true,
+        "reason": "The score is 0.92 because the response mostly addressed NovaTech’s Lisbon office capacity, expansion plans, and core collaboration hours, but it also included an unnecessary office-location detail that was not asked for. That extra irrelevant statement keeps it from being a perfect score.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.26,
+        "success": false,
+        "reason": "The score is 0.26 because much of the retrieval context is off-topic, such as the discussion of “CRM Vendor Selection,” “company revenue,” and “policies, benefits, and expectations,” which do not address Lisbon capacity, expansion, or core hours. However, a few statements are directly relevant, including “the team agreed on a core hours policy of 10:00--15:00 CET,” “Lisbon office expansion approved,” and “The initial capacity is for 45 people, expandable to 80,” so the context is only partially useful.",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because sentence 1 is fully supported by node 1 in the retrieval context (Lisbon office table with Avenida da Liberdade 245 and ~110 employees), sentence 2 is fully supported by nodes 1 and 3 (2,000 sqm lease in Parque das Nacoes starting April 1, 45 expandable to 80, and core hours 10:00-15:00 CET), and sentence 3 is fully supported by node 5 (additional floor space in Parque das Nacoes for 40 seats with EUR 120K incremental annual lease cost).",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 0.7333333333333333,
+        "success": true,
+        "reason": "The score is 0.73 because the most relevant retrieval context nodes appear early and capture the needed details — node 1 mentions that 'core collaboration hours remain intact' and '10:00--15:00 CET for all cross-office meetings,' and node 3 gives 'Initial capacity for 45 people, expandable to 80.' However, it is not higher because irrelevant nodes are interleaved before and between useful hits: node 2 is only a handbook introduction with no Lisbon capacity, expansion plan, or core hours; node 4 is just cover information; node 7 is a product guide overview; and node 8 only says there are 'approximately 400 employees across three offices.' Because these irrelevant retrieval context nodes are ranked above or alongside some useful Lisbon-specific nodes, the relevant information is not perfectly prioritized.",
+        "error": null
+      }
+    }
+  },
+  {
+    "id": "q15",
+    "question": "How is NovaTech responding to the competitive threat from Planwise and the EU AI Act requirements?",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 10227,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 0.875,
+        "success": true,
+        "reason": "The score is 0.88 because the actual output slightly overstates what the context explicitly supports: it says NovaTech is responding to the documented challenges with the outlined strategies, even though the context only lists mitigation and response steps, and it also implies ProjectHub v3.3 will include Planwise Intelligence’s AI-driven forecasting and automated resource allocation, which the context does not explicitly say.",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the response fully addresses NovaTech’s competitive response to Planwise and the EU AI Act requirements without any irrelevant content.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.5384615384615384,
+        "success": false,
+        "reason": "The score is 0.54 because much of the context is off-topic, such as \"Appendix A: Q1 2026 Financial Statements Summary,\" \"policies, benefits, and expectations,\" and \"a structured incident response program,\" which do not answer the question. However, some passages are directly relevant, including \"Planwise... launched 'Planwise Intelligence'\" and \"Mitigation: accelerate the ProjectHub v3.3 release... increase competitive battle card resources,\" plus the EU AI Act note that NovaTech Copilot will likely require \"transparency obligations\" and compliance funding. This mix of relevant competitive and compliance details with lots of unrelated material explains the middling score.",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 0.5,
+        "success": false,
+        "reason": "The score is 0.50 because sentence 2 is well supported by node 1 in retrieval context, which mentions the EU AI Act as likely ‘limited risk’ with transparency obligations and an EUR 85K H2 2026 budget. Sentence 1 is only partially supported by node 2 in retrieval context, which covers accelerating ProjectHub v3.3, increasing battle cards, and commissioning the analyst comparison report, but it does not support the EUR 150K Q2 marketing spend request.",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the relevant nodes are ranked at the top of the retrieval contexts: node 1 directly covers the EU AI Act response with 'limited risk' classification and the 'budgeted EUR 85K for compliance implementation in H2 2026,' and node 2 immediately follows with the Planwise response: 'Accelerate the ProjectHub v3.3 release to include additional AI capabilities. Increase competitive battle card resources for the sales team. Commission a third-party analyst comparison report.' The irrelevant nodes are all ranked lower, and their reasons show they do not address Planwise or EU AI Act requirements, so the ranking is perfectly precise.",
+        "error": null
+      }
+    }
+  },
+  {
+    "id": "q16",
+    "question": "How did NovaTech's ARR change from FY 2025 to Q1 2026, and how did Q1 2026 ARR compare to target?",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 6359,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 0.5,
+        "success": false,
+        "reason": "The score is 0.50 because the actual output appears to claim a Q1 2026 ARR was \"Above target\" and reference an ARR target/metrics table on page 13, but the context only says ARR reached EUR 18.2 million and grew 23% year over year, with no ARR target or \"Above target\" label mentioned.",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the response stayed fully focused on NovaTech's ARR change from FY 2025 to Q1 2026 and the comparison to target, with no irrelevant statements to reduce relevance.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.07547169811320754,
+        "success": false,
+        "reason": "The score is 0.08 because most of the context is unrelated metadata and non-ARR content, e.g. “Internal -- Board & Leadership Distribution Only” and “The statement is about cash position, not ARR change or ARR versus target.” Only a small portion is relevant: “Annual Recurring Revenue (ARR) reached EUR 18.2 million… a 23% year-over-year increase from EUR 14.8 million” and “ARR Growth (YoY) was 23% compared to 20%, and it was above target.”",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 0.0,
+        "success": false,
+        "reason": "The score is 0.00 because sentence 1 is only partially supported: node 1 in retrieval context confirms ARR reached EUR 18.2M with 23% YoY growth, but the FY 2025 ARR of approximately EUR 17M and the Q1 2026 target of EUR 17.5M are not stated in any retrieval node, so the expected output cannot be fully attributed.",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 0.7,
+        "success": true,
+        "reason": "The score is 0.70 because the most relevant evidence is concentrated in retrieval context node 1, which says \"Annual Recurring Revenue (ARR) reached EUR 18.2 million\" with a \"23% year-over-year increase,\" and node 5, which adds \"ARR Growth (YoY) 23% ... Above target.\" However, several irrelevant nodes are ranked ahead of the second relevant node—nodes 2, 3, and 4 discuss performance reviews, cash position, and headcount, so they should be lower in the ranking to better prioritize ARR information. The score is not higher because useful ARR-target support appears only after multiple irrelevant retrieval context nodes, but it is still fairly strong since the key ARR change and above-target signal are both present.",
+        "error": null
+      }
+    }
+  },
+  {
+    "id": "q17",
+    "question": "Exactly how many weeks of paid parental leave do employees in the Munich office receive?",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 4653,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 0.5,
+        "success": false,
+        "reason": "The score is 0.50 because the actual output said it could not find the information and introduced a Munich-specific exception with no number, but the retrieval context only gives a general rule that employees must notify HR at least 8 weeks before parental leave.",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 0.75,
+        "success": true,
+        "reason": "The score is 0.75 because the response was mostly relevant to the question about paid parental leave in the Munich office, but it included an unrelated detail about notification timing for HR that does not answer how many weeks of leave employees receive.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.02631578947368421,
+        "success": false,
+        "reason": "The score is 0.03 because almost all retrieved text is unrelated—e.g., it covers \"PTO requests,\" \"sick leave,\" \"remote work,\" and \"Austin\"—while the only relevant line is just \"Parental Leave: Per local statutory requirements; Notify HR at least 8 weeks before expected start.\" Since that line does not state the exact number of weeks for Munich, the context barely helps answer the question.",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because sentence 1 is fully supported by node 3 in retrieval context, which states parental leave is per local statutory requirements and requires 8 weeks' notice to HR, matching the claim that no fixed number of weeks is specified. Great recall!",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 0.3333333333333333,
+        "success": false,
+        "reason": "The score is 0.33 because the first two nodes in the retrieval contexts are irrelevant and ranked above the only relevant node, which lowers precision at the top of the list. Node rank 1 is about sick leave and says 'Employees are entitled to ten (10) paid sick days' but does not mention parental leave or Munich; node rank 2 only discusses annual leave and says 'All full-time employees receive twenty-five (25) days of paid time off (PTO)' with no parental leave information. The relevant retrieval context appears at rank 3 and is strong because it states 'Parental Leave Per local statutory requirements' and 'Notify HR at least 8 weeks before expected start,' which directly addresses the question by indicating there is no fixed week count. The remaining nodes are irrelevant and stay below it, so the score is not higher.",
+        "error": null
+      }
+    }
+  },
+  {
+    "id": "q18",
+    "question": "What is CEO Sarah Chen's annual base salary and equity compensation package?",
+    "model": "qwen3.5:4b-q4_K_M",
+    "generation_time_ms": 5027,
+    "judge": "gpt-5.4-mini",
+    "metrics": {
+      "Faithfulness": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because there are no contradictions, so the actual output appears fully faithful to the retrieval context.",
+        "error": null
+      },
+      "Answer Relevancy": {
+        "score": 0.4444444444444444,
+        "success": false,
+        "reason": "The score is 0.44 because the response includes some company-related context, but it misses the specific CEO compensation details asked for and instead talks about unrelated items like financial performance, hiring plans, benefits, and internal policies. It’s not lower because it still stays within the general company/leadership topic, but it can’t be higher since it does not provide Sarah Chen’s annual base salary or equity package.",
+        "error": null
+      },
+      "Contextual Relevancy": {
+        "score": 0.02127659574468085,
+        "success": false,
+        "reason": "The score is 0.02 because the context is overwhelmingly off-topic: it focuses on a “Quarterly Business Report,” “revenue performance,” “hiring progress,” and “employee handbook” items, all of which “do not provide CEO Sarah Chen’s annual base salary or equity compensation package.” The only related line is that “The annual review directly informs compensation adjustments… and promotion decisions,” but it still doesn’t state Sarah Chen’s actual salary or equity package.",
+        "error": null
+      },
+      "Contextual Recall": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because sentence 1 is fully unsupported by the retrieval context: node(s) in retrieval context 1–4 and the remaining nodes cover quarterly business, headcount, meeting notes, awards/benefits, and policies, but none mention Sarah Chen’s salary or equity compensation. Great coverage overall!",
+        "error": null
+      },
+      "Contextual Precision": {
+        "score": 1.0,
+        "success": true,
+        "reason": "The score is 1.00 because the retrieval contexts are ranked perfectly: the first node in the retrieval contexts and every later node all support the absence of Sarah Chen’s salary details, with quotes like \"no 'salary' or 'equity compensation' for Sarah Chen\" and \"does not provide any information about Sarah Chen's base salary or equity compensation package.\" Since there are no irrelevant nodes placed above relevant ones, the ranking is ideal.",
+        "error": null
+      }
+    }
+  }
+]

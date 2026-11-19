@@ -18,7 +18,7 @@ os.environ.setdefault("DEEPEVAL_RETRY_CAP_SECONDS", "30")
 os.environ.setdefault("DEEPEVAL_TELEMETRY_OPT_OUT", "1")
 
 from deepeval import evaluate  # noqa: E402
-from deepeval.evaluate import AsyncConfig, DisplayConfig, ErrorConfig
+from deepeval.evaluate import AsyncConfig, CacheConfig, DisplayConfig, ErrorConfig
 from deepeval.metrics import (
     AnswerRelevancyMetric, ContextualPrecisionMetric, ContextualRecallMetric,
     ContextualRelevancyMetric, FaithfulnessMetric,
@@ -57,6 +57,7 @@ def main(label: str):
             AnswerRelevancyMetric, ContextualRelevancyMetric, ContextualRecallMetric, ContextualPrecisionMetric)]
     result = evaluate(test_cases, metrics,
                     async_config=AsyncConfig(max_concurrent=int(os.environ.get("EVAL_CONCURRENCY", "2"))),
+                    cache_config=CacheConfig(write_cache=False, use_cache=False),
                     error_config=ErrorConfig(ignore_errors=True),
                     display_config=DisplayConfig(print_results=False))
     by_id = {r["id"]: r for r in rows}
