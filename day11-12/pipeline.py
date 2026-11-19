@@ -1,3 +1,4 @@
+import argparse
 import json
 from pathlib import Path
 
@@ -74,8 +75,18 @@ def run_test_suite(
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Run the RAG pipeline over test_questions.json.")
+    parser.add_argument(
+        "--output",
+        "--test-set",
+        dest="output_path",
+        default="pipeline_outputs.json",
+        help="Path to write pipeline outputs JSON (default: pipeline_outputs.json)",
+    )
+    args = parser.parse_args()
+
     if Path("test_questions.json").exists():
-        run_test_suite()
+        run_test_suite(output_path=args.output_path)
     else:
         print("test_questions.json not found yet — running quick smoke test:\n")
         for sample_q in [

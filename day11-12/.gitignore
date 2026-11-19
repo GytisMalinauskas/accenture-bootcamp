@@ -3,3 +3,4 @@ chroma_db/
 .env
 __pycache__/
 *.py[cod]
+instructions/

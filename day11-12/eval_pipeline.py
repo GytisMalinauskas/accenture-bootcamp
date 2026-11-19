@@ -41,7 +41,8 @@ def make_judge():
 
 
 def main(label: str):
-    with open(f"pipeline_outputs_{label}.json", encoding="utf-8") as f:
+    input_path = "pipeline_outputs.json" if label == "local" and not os.path.exists(f"pipeline_outputs_{label}.json") else f"pipeline_outputs_{label}.json"
+    with open(input_path, encoding="utf-8") as f:
         rows = json.load(f)
     test_cases = [
         LLMTestCase(name=r["id"], input=r["question"], actual_output=r["actual_answer"],
@@ -55,9 +56,9 @@ def main(label: str):
         m(threshold=0.7, model=judge) for m in (
             AnswerRelevancyMetric, ContextualRelevancyMetric, ContextualRecallMetric, ContextualPrecisionMetric)]
     result = evaluate(test_cases, metrics,
-                      async_config=AsyncConfig(max_concurrent=int(os.environ.get("EVAL_CONCURRENCY", "2"))),
-                      error_config=ErrorConfig(ignore_errors=True),
-                      display_config=DisplayConfig(print_results=False))
+                    async_config=AsyncConfig(max_concurrent=int(os.environ.get("EVAL_CONCURRENCY", "2"))),
+                    error_config=ErrorConfig(ignore_errors=True),
+                    display_config=DisplayConfig(print_results=False))
     by_id = {r["id"]: r for r in rows}
     out = [{
         "id": tr.name,
