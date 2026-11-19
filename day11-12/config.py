@@ -11,9 +11,9 @@ DOCUMENTS_DIR = "documents"
 CHROMA_DIR = "chroma_db"
 COLLECTION_NAME = "bootcamp_docs"
 
-CHUNK_SIZE = 512
-CHUNK_OVERLAP = 50
-TOP_K = 5
+CHUNK_SIZE = 1024
+CHUNK_OVERLAP = 150
+TOP_K = 8
 
 SYSTEM_PROMPT = """You are a helpful assistant answering questions based on provided context.
 Use ONLY the context below to answer. If the answer is not in the context, say "I cannot find this information in the provided documents."

@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "q01",
+    "question": "How many days of paid time off (PTO) do full-time employees receive per calendar year, and what is the carryover limit?",
+    "expected_answer": "Full-time employees receive 25 days of PTO per calendar year (accruing at 2.083 days per month), in addition to local public holidays. Up to 5 unused PTO days may be carried over to the next year and must be used by March 31.",
+    "actual_answer": "Based on the provided context:\n\n*   **PTO Entitlement:** Full-time employees receive **twenty-five (25) days** of paid time off (PTO) per calendar year.\n*   **Carryover Limit:** Unused PTO may be carried over to the following calendar year, up to a maximum of **five (5) days**.",
+    "retrieved_context": [
+      "Team Days\n\nEach team must designate at least one (1) mandatory in-office day per\nweek for collaborative work. These team days are set by the team lead and\ncommunicated at the start of each quarter.\n\n\n5. Leave and Time-Off Policy\n\nAnnual Leave (Paid Time Off)\n\nAll full-time employees receive twenty-five (25) days of paid time off (PTO) per\ncalendar year, in addition to public holidays observed at their respective office\nlocation. Part-time employees receive PTO on a pro-rata basis.",
+      "PTO accrues monthly (2.083 days per month). Employees may use PTO before it\nhas fully accrued, subject to manager approval. The maximum negative PTO\nbalance permitted is five (5) days.\n\nCarryover: Unused PTO may be carried over to the following calendar year, up\nto a maximum of five (5) days. Carried-over days must be used by March 31\nof the following year. Any unused carried-over days beyond this date will be\nforfeited unless prohibited by local employment law.",
+      "Sick Leave\n\nEmployees are entitled to ten (10) paid sick days per calendar year. A medical\ncertificate is required for absences exceeding three (3) consecutive working\ndays. Sick days do not carry over between calendar years.\n\nIn Germany, statutory sick pay provisions apply after the company sick leave\nentitlement is exhausted. Employees in Portugal and the United States should\nrefer to the country-specific addendum for details on statutory sick leave\nprovisions.",
+      "PTO requests should be submitted via NovaHR at least two (2) weeks in\nadvance for absences of three (3) or more consecutive days, and at least three\n(3) business days in advance for shorter absences. Managers may decline\nrequests during critical business periods, provided reasonable alternative dates\nare offered.\n\nSick Leave",
+      "Eligibility\n\nAll employees who have completed their probationary period (six months) are\neligible for hybrid work unless their role requires physical presence (e.g., office\nmanagement, facilities, on-site IT support). Employees still within their\nprobationary period may work remotely for up to one (1) day per week with\nmanager approval.\n\nApproval Process",
+      "Available after 5 years of continuous\n  Sabbatical             Up to 3 months unpaid                employment; requires VP-level\n                                                              approval\n\n\n6. Expense and Travel Policy",
+      "Resource Management\n\nThe resource management module helps organizations balance workloads and\nplan capacity:\n\n    • Capacity planning: Define available hours per team member per week\n      (supports part-time schedules, holidays, and leave)",
+      "Sarah liked the idea of a company-wide baseline with departmental flexibility.\nShe proposed: company policy moves to 4 days remote / 1 day in-office\n(Tuesday) as the default, but department heads can require up to 2 in-\noffice days if justified by role requirements. James said that works for him --\nhe would keep Sales at 2 days in-office (Tuesday and Thursday)."
+    ],
+    "context_sources": [
+      {
+        "source": "company_handbook.pdf",
+        "page": 5,
+        "score": 0.824
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 5,
+        "score": 0.8233
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 5,
+        "score": 0.7204
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 5,
+        "score": 0.6747
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 4,
+        "score": 0.6736
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 6,
+        "score": 0.6401
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 3,
+        "score": 0.628
+      },
+      {
+        "source": "meeting_notes.pdf",
+        "page": 6,
+        "score": 0.6191
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "stop",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 852,
+    "tokens_generated": 75,
+    "retrieval_time_ms": 6907,
+    "generation_time_ms": 8110,
+    "passed": null,
+    "rating_note": ""
+  },
+  {
+    "id": "q02",
+    "question": "How many days of bereavement leave are granted for immediate family versus extended family?",
+    "expected_answer": "Employees receive 5 days of bereavement leave for immediate family (spouse, partner, parent, child, sibling) and 2 days for extended family.",
+    "actual_answer": "Based on the provided context, employees are granted **5 days** of bereavement leave for an immediate family member (spouse, partner, parent, child, sibling) and **2 days** for an extended family member.",
+    "retrieved_context": [
+      "Bereavement            5 days (immediate                    Immediate family: spouse, partner,\n  Leave                  family) / 2 days (extended           parent, child, sibling\n                         family)\n\n\n  Jury Duty               As required by law                   Provide summons documentation toHR\n\n\n  Volunteer\n  Leave                    2 days per year                        Pre-approved volunteer activitiesaligned with company CSR goals",
+      "Additional Leave Types\n\n\n  Leave Type         Duration                              Conditions\n\n  Parental Leave       Per local statutory                    Notify HR at least 8 weeks before\n                         requirements                         expected start\n\n\n  Marriage Leave      3 days                                      Must be taken within 30 days of theceremony",
+      "Sick Leave\n\nEmployees are entitled to ten (10) paid sick days per calendar year. A medical\ncertificate is required for absences exceeding three (3) consecutive working\ndays. Sick days do not carry over between calendar years.\n\nIn Germany, statutory sick pay provisions apply after the company sick leave\nentitlement is exhausted. Employees in Portugal and the United States should\nrefer to the country-specific addendum for details on statutory sick leave\nprovisions.",
+      "Team Days\n\nEach team must designate at least one (1) mandatory in-office day per\nweek for collaborative work. These team days are set by the team lead and\ncommunicated at the start of each quarter.\n\n\n5. Leave and Time-Off Policy\n\nAnnual Leave (Paid Time Off)\n\nAll full-time employees receive twenty-five (25) days of paid time off (PTO) per\ncalendar year, in addition to public holidays observed at their respective office\nlocation. Part-time employees receive PTO on a pro-rata basis.",
+      "PTO requests should be submitted via NovaHR at least two (2) weeks in\nadvance for absences of three (3) or more consecutive days, and at least three\n(3) business days in advance for shorter absences. Managers may decline\nrequests during critical business periods, provided reasonable alternative dates\nare offered.\n\nSick Leave",
+      "30 minutes. The CEO, General Counsel, and Board Security Committee must be\nnotified within 1 hour. External forensic support must be engaged within 2 hours\nif the scope of compromise is not fully determined. All other non-critical work by\nIRT members is immediately suspended for the duration of the P1 response.",
+      "days, subject to applicable legal retention requirements. Where erasure\n      conflicts with a legal obligation, the data is restricted from further\n      processing instead.\n   4. Right to Data Portability (Article 20): Personal data is provided in a\n      machine-readable format (JSON or CSV) within 30 days of request.\n   5. Right to Object (Article 21): Processing for direct marketing purposes\n      ceases within 5 business days of receiving an objection. Objections to",
+      "Available after 5 years of continuous\n  Sabbatical             Up to 3 months unpaid                employment; requires VP-level\n                                                              approval\n\n\n6. Expense and Travel Policy"
+    ],
+    "context_sources": [
+      {
+        "source": "company_handbook.pdf",
+        "page": 6,
+        "score": 0.7801
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 6,
+        "score": 0.6785
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 5,
+        "score": 0.674
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 5,
+        "score": 0.6214
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 5,
+        "score": 0.6196
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 6,
+        "score": 0.575
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 12,
+        "score": 0.5683
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 6,
+        "score": 0.5639
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "stop",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 833,
+    "tokens_generated": 47,
+    "retrieval_time_ms": 2103,
+    "generation_time_ms": 4078,
+    "passed": null,
+    "rating_note": ""
+  },
+  {
+    "id": "q03",
+    "question": "Who is the primary point of contact for GDPR-related matters at NovaTech and what is their email address?",
+    "expected_answer": "The Data Protection Officer (DPO) is the primary point of contact for all GDPR-related matters and can be reached at dpo@novatech.io.",
+    "actual_answer": "Based on the provided context, the **Data Protection Officer (DPO)** serves as the primary point of contact for all GDPR-related matters.\n\nHowever, there is a discrepancy in the documents regarding the specific email address:\n*   **[security_policy.pdf](https://www.novatech.io/security-policy) (Page 12)** states the email is **dpo@novatech.io**.\n*   **[company_handbook.pdf](https://www.novatech-solutions.com/company-handbook) (Page 15)** lists a different DPO email: **dpo@novatech-solutions.com**.\n\nGiven that the security policy specifically addresses GDPR procedures, **dpo@novatech.io** is the address listed for GDPR-related matters in that document.",
+    "retrieved_context": [
+      "8. GDPR Compliance Procedures\n\n8.1 Applicability\n\nNovaTech processes personal data of individuals located in the European\nEconomic Area (EEA) and the United Kingdom. As such, NovaTech complies with\nthe General Data Protection Regulation (EU) 2016/679 (\"GDPR\") and the UK\nGDPR. The Data Protection Officer (DPO) serves as the primary point of contact\nfor all GDPR-related matters and can be reached at dpo@novatech.io.\n\n8.2 Lawful Basis for Processing",
+      "NovaTech is fully GDPR compliant:\n\n    • Data Processing Agreement (DPA) included with all contracts\n    • Right to deletion: personal data can be purged within 72 hours of a verified\n       request\n    • Data subject access requests processed within 30 days\n    • Privacy impact assessment documentation available on request\n    • EU data residency available by default (Frankfurt data center); other regions\n       available on Enterprise tier\n    • Cookie consent management for embedded analytics",
+      "12. Data Protection and Confidentiality\n\n\nNovaTech Solutions processes personal data in compliance with the General\nData Protection Regulation (GDPR), the California Consumer Privacy Act\n(CCPA), and other applicable data protection laws. Our Data Protection Officer\n(DPO) can be reached at dpo@novatech-solutions.com.\n\nConfidential Information",
+      "10.5 GDPR Compliance\n\nNovaTech is fully GDPR compliant:",
+      "8.3 Data Subject Rights\n\nNovaTech has established procedures to fulfill data subject rights requests within\nthe GDPR-mandated timeframes:",
+      "NovaTech Solutions GmbH Leopoldstraße 120, 80802 Munich, Germany\nHandelsregister: HRB 231847 (Amtsgericht Munich) Geschäftsführer: Sarah Chen\n(CEO), Marcus Weber (CTO), Priya Anand (CFO)\n\nFor questions about this handbook, contact: hr@novatech-solutions.com",
+      "and mitigate its effects. If direct notification is disproportionately difficult (e.g.,\ncontact details are unavailable), NovaTech will issue a public communication\nthrough its website and, where appropriate, social media channels.\n\n9.4 Breach Register",
+      "Where a breach is determined to pose a risk to individuals, NovaTech will notify\nthe relevant supervisory authority within 72 hours of becoming aware of the\nbreach, in accordance with GDPR Article 33. The notification will include: the\nnature of the breach, the categories and approximate number of data subjects\naffected, the likely consequences, and the measures taken or proposed to\naddress the breach. If full details are not available within 72 hours, NovaTech will"
+    ],
+    "context_sources": [
+      {
+        "source": "security_policy.pdf",
+        "page": 12,
+        "score": 0.7674
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 24,
+        "score": 0.7646
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 15,
+        "score": 0.7597
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 24,
+        "score": 0.755
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 12,
+        "score": 0.7139
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 17,
+        "score": 0.7139
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 14,
+        "score": 0.7136
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 13,
+        "score": 0.704
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "stop",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 778,
+    "tokens_generated": 162,
+    "retrieval_time_ms": 2101,
+    "generation_time_ms": 6551,
+    "passed": null,
+    "rating_note": ""
+  },
+  {
+    "id": "q04",
+    "question": "Within how many hours must the Security Operations Lead notify the DPO and General Counsel upon confirmation of a personal data breach?",
+    "expected_answer": "Upon confirmation of a personal data breach, the Security Operations Lead must notify the DPO and General Counsel within 2 hours.",
+    "actual_answer": "The Security Operations Lead must notify the DPO and the General Counsel within **2 hours** upon confirmation of a personal data breach.",
+    "retrieved_context": [
+      "9. Breach Notification\n\n9.1 Internal Notification\n\nUpon confirmation of a personal data breach, the Security Operations Lead must\nnotify the DPO and the General Counsel within 2 hours. The DPO assesses\nwhether the breach is likely to result in a risk to the rights and freedoms of\nnatural persons and determines the notification obligations.\n\n9.2 Regulatory Notification",
+      "require acknowledgment within 1 hour of detection. The Incident Commander\nand Security Operations Lead must be engaged within 1 hour. A preliminary\nimpact assessment must be completed within 4 hours, which includes identifying\nall potentially affected systems, determining whether any customer data may\nhave been accessed, and evaluating the attack vector. The Engineering Lead\njoins the response within 2 hours to begin technical containment. A status update",
+      "routine review that could have been exploited, or a failed brute-force attack\nagainst an employee account. P3 incidents require acknowledgment within 4\nhours of detection. The Security Operations Lead assigns an analyst to\ninvestigate and determines whether escalation is warranted within 8 hours. A\nwritten summary must be delivered within 3 business days.",
+      "Where a breach is likely to result in a high risk to the rights and freedoms of\naffected individuals, NovaTech will notify those individuals without undue delay\nand no later than 7 days following the determination that individual notification is\nrequired. Notification will be provided through direct communication (email to the\nregistered address) and will include: a description of the breach in clear and plain\nlanguage, the name and contact details of the DPO, a description of the likely",
+      "Where a breach is determined to pose a risk to individuals, NovaTech will notify\nthe relevant supervisory authority within 72 hours of becoming aware of the\nbreach, in accordance with GDPR Article 33. The notification will include: the\nnature of the breach, the categories and approximate number of data subjects\naffected, the likely consequences, and the measures taken or proposed to\naddress the breach. If full details are not available within 72 hours, NovaTech will",
+      "30 minutes. The CEO, General Counsel, and Board Security Committee must be\nnotified within 1 hour. External forensic support must be engaged within 2 hours\nif the scope of compromise is not fully determined. All other non-critical work by\nIRT members is immediately suspended for the duration of the P1 response.",
+      "4.4 Incident Communication\n\nDuring P1 incidents, the Communications Lead issues an initial customer\nnotification within 4 hours of confirmation that customer data was affected.\nStatus updates are provided every 12 hours until resolution. For P2 incidents,\ncustomer communication is determined on a case-by-case basis by the Incident\nCommander in consultation with Legal.\n\n\n5. Data Handling and Protection\n\n5.1 Encryption Standards",
+      "9.4 Breach Register\n\nAll personal data breaches — regardless of whether they trigger notification\nobligations — are documented in the Breach Register maintained by the DPO.\nEach entry includes: the facts of the breach, its effects, and the remedial actions\ntaken. The Breach Register is reviewed by the CISO and DPO monthly and is\navailable for inspection by supervisory authorities upon request.\n\n\n10. Training and Awareness"
+    ],
+    "context_sources": [
+      {
+        "source": "security_policy.pdf",
+        "page": 13,
+        "score": 0.8841
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 6,
+        "score": 0.7697
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 7,
+        "score": 0.7587
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 13,
+        "score": 0.7565
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 13,
+        "score": 0.7541
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 6,
+        "score": 0.7451
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 8,
+        "score": 0.71
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 14,
+        "score": 0.7029
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "stop",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 880,
+    "tokens_generated": 27,
+    "retrieval_time_ms": 2126,
+    "generation_time_ms": 3566,
+    "passed": null,
+    "rating_note": ""
+  },
+  {
+    "id": "q05",
+    "question": "How long is the NovaTech free trial and what are its workspace limits?",
+    "expected_answer": "The free trial lasts 14 days with full Professional-tier features and no credit card required, but trial workspaces are limited to 10 users and 5 GB of storage.",
+    "actual_answer": "I cannot find this information in the provided documents.",
+    "retrieved_context": [
+      "Standard Working Hours\n\nNovaTech Solutions operates on a flexible schedule model. The standard work\nweek is 40 hours (38.5 hours for employees on German contracts). All employees\nmust be available during the core collaboration window of 10:00–15:00 CET\n(Central European Time) on working days, unless otherwise agreed with their\nmanager. Outside these core hours, employees may arrange their schedule to\nsuit personal preferences and local requirements.",
+      "• Employees must have a stable internet connection (minimum 25 Mbps\n      download, 5 Mbps upload).\n    • A dedicated, ergonomic workspace is recommended. NovaTech offers a one-\n      time home office setup allowance of €500 for employees approved for\n      regular remote work (see Section 6).\n    • Employees must be reachable via Slack and email during core collaboration\n      hours.\n    • All remote work must comply with IT security policies (see Section 11),",
+      "7. Service Level Agreements\n\n\nNovaTech provides uptime guarantees based on tier. Uptime is measured\nmonthly and excludes scheduled maintenance windows (announced at least 72\nhours in advance, limited to 4 hours per month).\n\n7.1 Uptime Commitments\n\n\n  Tier                Uptime SLA     Maximum Monthly Downtime       Measurement\n\n  Starter              99.5%                 ~3 hours 39 minutes                          Calendar month",
+      "NovaTech is fully GDPR compliant:\n\n    • Data Processing Agreement (DPA) included with all contracts\n    • Right to deletion: personal data can be purged within 72 hours of a verified\n       request\n    • Data subject access requests processed within 30 days\n    • Privacy impact assessment documentation available on request\n    • EU data residency available by default (Frankfurt data center); other regions\n       available on Enterprise tier\n    • Cookie consent management for embedded analytics",
+      "1.2 Scope\n\nThis policy applies to all NovaTech employees, contractors, temporary staff,\ninterns, and third-party service providers who access, process, store, or transmit\nNovaTech information assets. It covers all information systems, networks,\napplications, and data repositories operated by or on behalf of NovaTech,\nincluding cloud-hosted infrastructure, on-premises systems, and employee\nendpoints.\n\n1.3 Policy Authority",
+      "6. Expense and Travel Policy\n\n\nNovaTech Solutions reimburses reasonable business expenses incurred in the\ncourse of employment. All expenses must be submitted through the\nNovaExpense platform within thirty (30) calendar days of being incurred.\nExpenses submitted after this deadline may not be reimbursed.\n\nMeals and Incidentals\n\n\n  Category                                                                                   Daily Limit",
+      "endpoint detection agents, firewalls, or DLP tools.\n   5. Sharing NovaTech credentials with any other person, including other\n      NovaTech employees.\n   6. Using NovaTech systems to conduct business for any entity other than\n      NovaTech without written authorization.\n   7. Connecting personal devices to the NovaTech production network. Personal\n      devices may only access corporate resources through the approved Mobile\n      Device Management (MDM) platform.",
+      "6. Acceptable Use Policy\n\n6.1 General Principles\n\nNovaTech provides information systems, devices, and network access to\nemployees for the purpose of conducting authorized business activities. Limited\npersonal use is permitted provided it does not interfere with work responsibilities,\nconsume excessive resources, or violate any provision of this policy.\n\n6.2 Prohibited Activities\n\nThe following activities are strictly prohibited on NovaTech systems and\nnetworks:"
+    ],
+    "context_sources": [
+      {
+        "source": "company_handbook.pdf",
+        "page": 3,
+        "score": 0.6861
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 4,
+        "score": 0.6783
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 13,
+        "score": 0.67
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 24,
+        "score": 0.6689
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 1,
+        "score": 0.6526
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 6,
+        "score": 0.6518
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 10,
+        "score": 0.6507
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 10,
+        "score": 0.6492
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "stop",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 952,
+    "tokens_generated": 11,
+    "retrieval_time_ms": 2095,
+    "generation_time_ms": 3220,
+    "passed": null,
+    "rating_note": ""
+  },
+  {
+    "id": "q06",
+    "question": "What were NovaTech's Operating Income and Operating Margin in Q1 2026?",
+    "expected_answer": "In Q1 2026, NovaTech's Operating Income was EUR 280,000 and its Operating Margin was 5.8%.",
+    "actual_answer": "Based on the provided context, here is the information regarding NovaTech's Operating Income and Operating Margin for Q1 2026:\n\n*   **Operating Margin:** Approximately **5.8%**. This is explicitly stated in the Executive Summary (Page 1 of *quarterly_report_q1_2026.pdf*), which notes that total operating expenses were EUR 4.52M, yielding this margin.\n*   **Operating Income:** The context provides the necessary components to calculate this but does not state the final figure directly.\n    *   **Total Revenue (Recognized):** EUR 4.8 million (Page 1 of *quarterly_report_q1_2026.pdf*).\n    *   **Total Operating Expenses:** EUR 4.52 million (Page 1 of *quarterly_report_q1_2026.pdf*).\n    *   **Calculation:** EUR 4.8M (Revenue) - EUR 4.52M (Expenses) = **EUR 0.28 million**.\n\n*Note: There is a discrepancy in the provided text between the expense summary on Page 1 (listing total operating expenses as EUR 4.52M) and the detailed line items on Page 13 (summing to EUR 3.464M). The margin of 5.8% aligns with the EUR 4.52M expense figure.*",
+    "retrieved_context": [
+      "1. Executive Summary\n\n\nNovaTech Solutions delivered a strong first quarter in 2026, continuing the\ngrowth trajectory established in the second half of 2025. Annual Recurring\nRevenue (ARR) reached EUR 18.2 million at quarter-end, representing a 23%\nyear-over-year increase from EUR 14.8 million at the close of Q1 2025. Quarterly\nrecognized revenue came in at EUR 4.8 million, exceeding our internal forecast of\nEUR 4.6 million by approximately 4%.",
+      "fiscal year 2025, NovaTech Solutions achieved annual recurring revenue of\napproximately €17 million.\n\nThis handbook outlines the policies, benefits, and expectations that apply to all\nNovaTech Solutions employees regardless of location or role. It supplements but\ndoes not replace your individual employment contract. In the event of a conflict\nbetween this handbook and your employment contract, the terms of the\nemployment contract shall prevail.",
+      "2.4 Cash Position\n\nCash and cash equivalents at quarter-end stood at EUR 6.1M, down from EUR\n6.8M at the end of Q4 2025. The decrease reflects the Lisbon office investment\nand accelerated hiring. At the current burn rate, NovaTech maintains\napproximately 16 months of runway without additional revenue growth, though\nour trajectory suggests continued cash generation. No additional fundraising is\nplanned for 2026.\n\n\n3. Customer Metrics\n\n3.1 Customer Base Overview",
+      "6.1 Headcount Summary\n\nNovaTech Solutions ended Q1 2026 with 412 full-time employees, up from 374 at\nthe end of Q4 2025. We hired 38 new team members during the quarter against\na target of 35.\n\n\n  Department                          Headcount (Q1 End)         Q1 Hires       % of Total\n\n  Engineering                               156                                       18                  37.9%\n\n  Product & Design                      34                                         4                    8.3%",
+      "NovaTech Solutions -- Quarterly\nBusiness Report\n\n\nQ1 2026 (January -- March)\n\n\nClassification: Internal -- Board & Leadership Distribution Only\n\nPrepared by: Office of the CFO | Approved by: Sarah Chen, CEO\n\nReport Date: April 14, 2026\n\n\n1. Executive Summary",
+      "2.3 Expense Summary\n\nTotal operating expenses for Q1 2026 were EUR 4.52M, yielding an operating\nmargin of approximately 5.8%. This is down from 8.1% in Q4 2025, driven\nprimarily by one-time costs associated with the Lisbon office opening (EUR 185K",
+      "Line Item                                                                   Q1 2026 (EUR)\n\n  Research & Development                                                  (1,680,000)\n\n  Sales & Marketing                                                             (1,152,000)\n\n  General & Administrative                                                  (632,000)\n\n  Total Operating Expenses                                         (3,464,000)",
+      "NovaTech Solutions — Employee\nHandbook\n\n\n\nVersion 4.2 — Effective January 1, 2026 Human Resources Department\nLast Updated: January 15, 2026\n\n\nTable of Contents"
+    ],
+    "context_sources": [
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 1,
+        "score": 0.8018
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 2,
+        "score": 0.7722
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 3,
+        "score": 0.7593
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 8,
+        "score": 0.7463
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 1,
+        "score": 0.7343
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 2,
+        "score": 0.7306
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 13,
+        "score": 0.7077
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 1,
+        "score": 0.6984
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "stop",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 961,
+    "tokens_generated": 300,
+    "retrieval_time_ms": 2088,
+    "generation_time_ms": 9792,
+    "passed": null,
+    "rating_note": ""
+  },
+  {
+    "id": "q07",
+    "question": "Compare the Professional and Enterprise support tiers in terms of support hours and dedicated support manager availability.",
+    "expected_answer": "Professional customers receive support during extended business hours (06:00-22:00 CET, Monday to Friday). Enterprise customers receive 24/7 support and include a dedicated support manager (listed at EUR 2,000/month as Enterprise only in pricing).",
+    "actual_answer": "Based on the provided context, here is the comparison between the Professional and Enterprise support tiers regarding support hours and dedicated support managers:\n\n*   **Dedicated Support Manager:**\n    *   **Enterprise:** Yes (Available 24/7).\n    *   **Professional:** No.\n\n*   **Support Hours:**\n    *   **Enterprise:** 24/7 support.\n    *   **Professional:** Extended business hours (06:00 - 22:00 CET, Monday to Friday).",
+    "retrieved_context": [
+      "Enterprise customers receive 24/7 support with a dedicated support manager.\nProfessional customers receive support during extended business hours\n(06:00 - 22:00 CET, Monday to Friday). Starter customers receive support during\nstandard business hours (09:00 - 18:00 CET, Monday to Friday).",
+      "Dedicated support manager                  €2,000/month          Enterprise only\n\n  Custom data residency                          €3,000/month          Enterprise only\n\n  Disaster recovery (cross-region)            Included                  Enterprise only\n\n5.4 Free Trial\n\nAll tiers include a 14-day free trial with full Professional-tier features. No credit\ncard is required to start a trial. Trial workspaces are limited to 10 users and 5 GB\nof storage.\n\n\n6. Feature Comparison by Tier",
+      "Professional and Enterprise tiers.\n   3. Sprint Board — Scrum-style board with sprint planning, velocity tracking,\n      burndown and burnup charts. Sprint duration is configurable from 1 to 6\n      weeks. Supports story point and time-based estimation.\n   4. Calendar View — Monthly and weekly views showing tasks by due date,\n      with drag-to-reschedule capability. Syncs bidirectionally with Google\n      Calendar and Microsoft Outlook on Professional and Enterprise tiers.",
+      "• Admin certification: 4-hour exam covering platform administration,\n       security configuration, and integration management. Certified admins\n       receive priority support routing.\n\n13.3 Support Channels\n\n\n  Channel                                     Starter      Professional                  Enterprise\n\n  Knowledge base                             Yes               Yes                                    Yes",
+      "Dedicated support manager           No               No                                     Yes\n\n  Quarterly business reviews            No               No                                     Yes\n\n13.4 Professional Services\n\nNovaTech offers professional services for complex implementations:",
+      "(Professional), unlimited (Enterprise)",
+      "Format                   ProjectHub           Insight         Availability\n\n  CSV                           Yes                           Yes                 All tiers\n\n  XLSX (Excel)             Yes                           Yes                 All tiers\n\n  JSON                          Yes                           Yes                 Professional, Enterprise\n\n  PDF (reports)            Yes                           Yes                 Professional, Enterprise",
+      "3. Customer Metrics\n\n3.1 Customer Base Overview\n\n\n  Metric                                             Q1 2026           Q4 2025           Q1 2025\n\n  Total Customers                                   847                     821                     714\n\n  Enterprise Tier                                      52                       48                       39\n\n  Professional Tier                                   283                     271                     241"
+    ],
+    "context_sources": [
+      {
+        "source": "product_guide.pdf",
+        "page": 14,
+        "score": 0.7799
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 11,
+        "score": 0.7597
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 3,
+        "score": 0.6731
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 28,
+        "score": 0.6616
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 28,
+        "score": 0.6611
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 23,
+        "score": 0.6601
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 22,
+        "score": 0.6513
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 3,
+        "score": 0.6503
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "stop",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 749,
+    "tokens_generated": 111,
+    "retrieval_time_ms": 2102,
+    "generation_time_ms": 5356,
+    "passed": null,
+    "rating_note": ""
+  },
+  {
+    "id": "q08",
+    "question": "What security assessments are required for third-party vendors handling Confidential data versus Restricted data?",
+    "expected_answer": "Vendors handling Confidential data must complete the full Vendor Security Questionnaire (VSQ-Full, 120 questions) and provide evidence of a SOC 2 Type II audit completed within the past 12 months. Vendors handling Restricted data must meet all Confidential-tier requirements plus undergo an on-site or virtual security audit by the NovaTech Security Team.",
+    "actual_answer": "Based on the provided context, here are the requirements for security assessments:\n\n*   **Vendors handling Confidential data:** Must complete the full NovaTech Vendor Security Questionnaire (VSQ-Full, 120 questions) and provide evidence of a SOC 2 Type II audit completed within the past 12 months.\n*   **Vendors handling Restricted data:** The document states they \"Must meet all Confidential-tier\" requirements but cuts off before listing the specific assessment details for Restricted data.",
+    "retrieved_context": [
+      "7. Vendor Security Requirements\n\n7.1 Vendor Risk Assessment\n\nAll third-party vendors who access, process, or store NovaTech data must\ncomplete a security assessment before engagement and annually thereafter. The\ndepth of the assessment is determined by the classification of data the vendor\nwill handle:",
+      "• Vendors handling Public or Internal data: Must complete the NovaTech\n      Vendor Security Questionnaire (VSQ-Lite, 30 questions).\n    • Vendors handling Confidential data: Must complete the full NovaTech\n      Vendor Security Questionnaire (VSQ-Full, 120 questions) and provide\n      evidence of a SOC 2 Type II audit completed within the past 12 months.\n    • Vendors handling Restricted data: Must meet all Confidential-tier",
+      "7.3 Contractual Requirements\n\nAll vendor contracts involving access to Confidential or Restricted data must\ninclude: a data processing agreement (DPA) that specifies the scope and purpose\nof data processing, confidentiality obligations surviving termination by at least 3\nyears, a right-to-audit clause permitting NovaTech to conduct or commission\nsecurity audits, mandatory breach notification within 48 hours, and data return or\ndestruction requirements upon contract termination.",
+      "Restricted: The most sensitive category of information. This includes\nauthentication credentials, encryption keys, customer payment card data, health\nrecords, data subject to specific regulatory requirements (such as GDPR special\ncategory data), penetration test results, and incident response forensic evidence.\nUnauthorized disclosure of Restricted data could result in severe financial, legal,\nor reputational damage. Access is limited to specifically named individuals",
+      "Confidential: Information that, if disclosed without authorization, could cause\nsignificant harm to NovaTech or its customers. This includes customer data,\nfinancial records, employee personal data, proprietary source code, product\nroadmaps, pricing models, contract terms, audit reports, and security\nassessment results. Access to Confidential data is restricted to personnel with a\ndocumented business need.",
+      "3.2 Access Provisioning\n\nAccess requests are submitted through the IT Service Portal and must include:\nthe system or resource requested, the business justification, the requested role\nor permission level, and the expected duration of access. All access requests for\nConfidential systems require manager approval. Access to Restricted systems\nadditionally requires CISO approval and a completed background verification.",
+      "Confidential Information\n\nEmployees have access to confidential information including but not limited to:\ncustomer data, source code, product roadmaps, financial results, pricing\nstrategies, and employee data. This information must not be disclosed to\nunauthorized persons, whether inside or outside the company, except as\nrequired to perform job duties.",
+      "2.3 Labeling\n\nAll documents and data stores containing Confidential or Restricted data must be\nclearly labeled with the appropriate classification. Digital documents must\ninclude the classification level in the header or footer. Email containing\nConfidential or Restricted data must include the classification in the subject line\nprefix (e.g., \"[CONFIDENTIAL]\"). Database tables and cloud storage buckets\ncontaining Confidential or Restricted data must be tagged accordingly in the\nasset management system."
+    ],
+    "context_sources": [
+      {
+        "source": "security_policy.pdf",
+        "page": 11,
+        "score": 0.8044
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 11,
+        "score": 0.79
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 11,
+        "score": 0.746
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 2,
+        "score": 0.7355
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 2,
+        "score": 0.6999
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 4,
+        "score": 0.6823
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 15,
+        "score": 0.6818
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 4,
+        "score": 0.6701
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "stop",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 846,
+    "tokens_generated": 102,
+    "retrieval_time_ms": 2123,
+    "generation_time_ms": 5345,
+    "passed": null,
+    "rating_note": ""
+  },
+  {
+    "id": "q09",
+    "question": "Which Q1 2026 KPIs were below target, and what were their actual values compared to target?",
+    "expected_answer": "Two Q1 2026 KPIs were below target: Gross Churn (Quarterly) was 3.2% against a 2.5% target, and NPS (Insight) was 46 against a 48 target.",
+    "actual_answer": "Based on the provided context, the following Q1 2026 Key Performance Indicators (KPIs) were **below target**:\n\n**1. Operating Margin**\n*   **Actual Value:** 5.8%\n*   **Target:** Not explicitly stated in the snippet, but implied to be higher than 5.8% as it is listed below \"Operating Income\" without a status indicator of \"Above target\". (Note: Other metrics on this page have explicit targets and statuses).\n\n**2. Employee Engagement**\n*   **Actual Value:** 78/100\n*   **Target:** 80/100\n\n**3. NPS (Insight)**\n*   **Actual Value:** 46\n*   **Target:** 48\n\n**4. Gross Churn (Quarterly)**\n*   **Actual Value:** 3.2%\n*   **Target:** 2.5%\n\n**5. Platform Uptime**\n*   **Actual Value:** 99.97%\n*   **Target:** 99.9%\n    *   *Correction:* The status says \"Above target\". This is likely a typo in the source document or an error in my initial scan. Let's re-read carefully:\n        *   Source: quarterly_report_q1_2026.pdf, Page: 13\n        *   Platform Uptime: Actual 99.97%, Target 99.9%, Status \"Above target\".\n        *   Okay, Platform Uptime is **Above** target. I will exclude it from the \"below target\" list.\n\n**6. CAC Payback (months)**\n*   **Actual Value:** 14 months\n*   **Target:** 15 months\n    *   *Correction:* The status says \"Above target\". Lower is better for payback, so 14 < 15 means it is above the target threshold. Exclude from \"below target\" list.\n\n**7. LTV/CAC Ratio**\n*   **Actual Value:** 4.8x\n*   **Target:** 4.5x\n    *   *Correction:* The status says \"Above target\". Higher is better, so 4.8 > 4.5 means it is above the target threshold. Exclude from \"below target\" list.\n\n**8. Cash Position (Runway)**\n*   **Actual Value:** Approximately 16 months of runway\n*   **Target:** Not explicitly stated as a number, but the text says \"No additional fundraising is planned... trajectory suggests continued cash generation.\" The decrease in cash position is noted as a reflection of investment and hiring. However, looking strictly at the KPI table format on Page 13, there isn't a specific \"target\" number listed for runway other than the implication of sustainability.\n*   Let's re-evaluate **Cash Position** based on the text: \"Cash and cash equivalents... down from EUR 6.8M\". The text doesn't give a specific target number like \"18 months\", so it might not fit the strict \"Actual vs Target\" format of the other KPIs.\n\nLet's re-verify the list based strictly on the \"**Below target**\" status labels found in the text:\n\n1.  **Operating Margin**: Status is missing in the snippet, but usually, if it's listed with income, and others have targets... wait, looking at Page 13 again.\n    *   Operating Income: 280,000\n    *   Operating Margin: 5.8%\n    *   There is no \"Status\" column visible for these two lines in the snippet provided for Page 13 top section?\n    *   Ah, looking at the bottom of Page 13 snippet:\n        *   Employee Engagement: Below target (78 vs 80)\n        *   Platform Uptime: Above target\n        *   CAC Payback: Above target\n        *   LTV/CAC Ratio: Above target\n\n    *   Looking at the middle of Page 13 snippet (Customer Metrics):\n        *   Customer Count: Above target\n        *   NPS (ProjectHub): On target\n        *   **NPS (Insight)**: Below target (46 vs 48)\n        *   Employee Headcount: On target\n\n    *   Looking at Page 13 bottom snippet (Growth Metrics):\n        *   ARR Growth: Above target\n        *   Net Revenue Retention: Above target\n        *   **Gross Churn**: Below target (3.2% vs 2.5%)\n        *   New ACV: Above target\n\n    *   Looking at Page 11 snippet (Pipeline):\n        *   Pipeline Conversion: Target EUR",
+    "retrieved_context": [
+      "Operating Income                                                     280,000\n\n  Operating Margin                                                     5.8%\n\n\nAppendix B: Key Performance Indicators\nDashboard\n\n\n  KPI                                            Q1 2026            Target               Status\n\n  ARR                                               EUR 18.2M           EUR 17.5M           Above target",
+      "4. Pipeline Conversion: Convert EUR 2.3M qualified pipeline at or above the\n      historical 38% conversion rate. Target: EUR 0.9M in new ACV for Q2.",
+      "98.0% - 99.89%           —                           10%                                 —\n\n  99.9% - 99.94%           —                           —                                     10%\n\n  95.0% - 98.99%           —                           15%                                 —\n\n  99.0% - 99.89%           —                           —                                     20%\n\n  Below 95.0%               10%                       25%                                 30%",
+      "Employee Engagement                 78/100                 80/100                 Below target\n\n  Platform Uptime                            99.97%                99.9%                  Above target\n\n  CAC Payback (months)                  14                        15                        Above target\n\n  LTV/CAC Ratio                                4.8x                     4.5x                     Above target",
+      "2.4 Cash Position\n\nCash and cash equivalents at quarter-end stood at EUR 6.1M, down from EUR\n6.8M at the end of Q4 2025. The decrease reflects the Lisbon office investment\nand accelerated hiring. At the current burn rate, NovaTech maintains\napproximately 16 months of runway without additional revenue growth, though\nour trajectory suggests continued cash generation. No additional fundraising is\nplanned for 2026.\n\n\n3. Customer Metrics\n\n3.1 Customer Base Overview",
+      "Customer Count                            847                      830                      Above target\n\n  NPS (ProjectHub)                           51                        50                        On target\n\n  NPS (Insight)                                 46                        48                        Below target\n\n  Employee Headcount                    412                      409                      On target",
+      "8. Strategic Priorities for Q2 2026\n\n\nBased on Q1 performance and the risk factors outlined above, the leadership\nteam has aligned on the following priorities for Q2:\n\n   1. Protect Enterprise Revenue Base: Dedicated executive engagement for\n      the three at-risk accounts. Target: retain at least EUR 300K of the EUR 420K\n      at-risk ARR.",
+      "ARR Growth (YoY)                          23%                     20%                     Above target\n\n  Net Revenue Retention                 112%                   110%                   Above target\n\n  Gross Churn (Quarterly)                3.2%                    2.5%                    Below target\n\n  New ACV                                        EUR 1.9M             EUR 1.7M             Above target"
+    ],
+    "context_sources": [
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 13,
+        "score": 0.6825
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 11,
+        "score": 0.6144
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 14,
+        "score": 0.6097
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 13,
+        "score": 0.6033
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 3,
+        "score": 0.6018
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 13,
+        "score": 0.5988
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 11,
+        "score": 0.596
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 13,
+        "score": 0.5959
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "length",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 945,
+    "tokens_generated": 1024,
+    "retrieval_time_ms": 2118,
+    "generation_time_ms": 26536,
+    "passed": null,
+    "rating_note": ""
+  },
+  {
+    "id": "q10",
+    "question": "What are the three Board Requests in the Q1 2026 quarterly report and their estimated costs?",
+    "expected_answer": "1) Competitive Response Budget: EUR 150K in Q2 marketing spend to counter Planwise; 2) Lisbon Office Expansion: EUR 120K incremental annual lease cost for 40 additional seats; 3) AI Infrastructure Investment: EUR 280K in Q2-Q3 for a dedicated GPU compute environment for NovaTech Copilot.",
+    "actual_answer": "I cannot find this information in the provided documents. While the context mentions a \"Board & Leadership Distribution Only\" classification and lists several initiatives (ProjectHub v3.3, Insight v3.0, NovaTech Copilot) with associated costs or timelines, it does not explicitly label them as \"Board Requests.\"",
+    "retrieved_context": [
+      "Next quarterly report: Q2 2026, scheduled for publication July 14, 2026.",
+      "Line Item                                                                   Q1 2026 (EUR)\n\n  Research & Development                                                  (1,680,000)\n\n  Sales & Marketing                                                             (1,152,000)\n\n  General & Administrative                                                  (632,000)\n\n  Total Operating Expenses                                         (3,464,000)",
+      "NovaTech Solutions -- Quarterly\nBusiness Report\n\n\nQ1 2026 (January -- March)\n\n\nClassification: Internal -- Board & Leadership Distribution Only\n\nPrepared by: Office of the CFO | Approved by: Sarah Chen, CEO\n\nReport Date: April 14, 2026\n\n\n1. Executive Summary",
+      "2.3 Expense Summary\n\nTotal operating expenses for Q1 2026 were EUR 4.52M, yielding an operating\nmargin of approximately 5.8%. This is down from 8.1% in Q4 2025, driven\nprimarily by one-time costs associated with the Lisbon office opening (EUR 185K",
+      "4.4 Product Roadmap -- Upcoming\n\nThe following major initiatives are planned for the remainder of 2026:\n\n\n Initiative                                                     Target Quarter        Status\n\n ProjectHub v3.3 (Advanced Reporting)             Q2 2026                      In development\n\n Insight v3.0 (Predictive Analytics)                     Q2 2026                      In development\n\n NovaTech Copilot (AI Assistant)                        Q3 2026                      Design phase",
+      "3. AI Infrastructure Investment: Authorization to establish a dedicated GPU\n       compute environment for NovaTech Copilot development and deployment.\n       Estimated Q2-Q3 cost: EUR 280K. This investment is critical to maintaining\n       our AI development velocity and avoiding dependency on third-party API\n       providers for production model serving.\n\n\nAppendix A: Q1 2026 Financial Statements\nSummary\n\n\nDetailed financial statements are provided under separate cover by the Finance\ndepartment.",
+      "3.3 Quarterly Access Reviews\n\nNovaTech conducts mandatory access reviews on a quarterly basis (Q1: January,\nQ2: April, Q3: July, Q4: October). During each review cycle:",
+      "• Inbound: Cost centers, organizational units, employee master data, budget\n       allocations\n    • Outbound: Project time entries, project cost reports, milestone completion\n       status\n    • Data mapping is configurable via a visual mapper in the NovaTech admin\n       console\n    • Requires SAP Communication Arrangement setup (documentation provided\n       during onboarding)\n    • Initial data load supports incremental sync to avoid overwhelming SAP\n       systems"
+    ],
+    "context_sources": [
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 14,
+        "score": 0.6904
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 13,
+        "score": 0.6844
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 1,
+        "score": 0.6641
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 2,
+        "score": 0.6454
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 6,
+        "score": 0.6314
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 12,
+        "score": 0.6287
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 5,
+        "score": 0.6217
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 21,
+        "score": 0.6201
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "stop",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 835,
+    "tokens_generated": 64,
+    "retrieval_time_ms": 2126,
+    "generation_time_ms": 4349,
+    "passed": null,
+    "rating_note": ""
+  },
+  {
+    "id": "q11",
+    "question": "What pricing change did James Park propose for the Starter tier, and how much additional ARR did he estimate it would generate?",
+    "expected_answer": "James proposed increasing the Starter tier from EUR 29 to EUR 39/user/month for new customers only starting Q3 2026 (grandfathering existing customers for 12 months), estimating it would add approximately EUR 1.8M in ARR over the next 12 months.",
+    "actual_answer": "James Park proposed increasing the Starter tier price from **EUR 29 to EUR 39 per user/month** for new customers only, effective Q3 2026. He estimated this change would add approximately **EUR 1.8 million in ARR** over the next 12 months.",
+    "retrieved_context": [
+      "James's proposal: Increase the Starter tier from EUR 29 to EUR 39/user/month\nfor new customers only, effective Q3 2026. Existing customers would be\ngrandfathered at the current rate for 12 months before transitioning. Rationale:\nour Starter tier is underpriced relative to competitors (Asana at EUR 35,\nMonday.com at EUR 36) and we are leaving significant revenue on the table.\nJames estimated this would add approximately EUR 1.8M in ARR over the next 12",
+      "Marcus expressed concern that the 34% price increase might hurt conversion\nrates, especially in the SMB segment where Starter is the entry point. He\nsuggested EUR 35 as a more conservative step.\n\nElena pointed out that the Starter tier has grown significantly in functionality\nsince the last pricing change (18 months ago) and the increase is justified by the\nvalue delivered.",
+      "2. Pricing Strategy Discussion\n\nJames raised the topic of pricing adjustments. Current pricing: - Starter: EUR 29/\nuser/month - Professional: EUR 59/user/month - Enterprise: EUR 99/user/\nmonth (custom pricing available above 200 seats)",
+      "Sarah agreed with the direction but asked James to model three scenarios (EUR\n35, EUR 37, EUR 39) with projected impact on conversion rates and churn. She\nalso wants to see how this aligns with the planned Professional tier feature\nadditions in H2.\n\nDecision: Direction approved in principle. James to return with detailed modeling\nbefore a final price point is set. Target implementation date remains Q3 2026.\n\n3. Security Training Mandate",
+      "James reported that the launch has positively impacted the sales pipeline. Two\nenterprise prospects (combined ARR of EUR 340K) specifically cited v3.2 features\nas the reason they moved to final evaluation. He is cautiously optimistic about\nclosing both by end of Q1.\n\nSarah congratulated the team but stressed that the two-week delay cost us\nthe January press window. She asked Elena to implement a launch readiness\nchecklist for future releases.\n\n2. Pricing Strategy Discussion",
+      "Starter Tier                                           512                     502                     434\n\n  New Customers (Q1)                            41                       37                       29",
+      "Budget request: EUR 1.2M broken down as: - Personnel (4 ML engineers, 1 PM\nfor 12 months): EUR 780K - Infrastructure (GPU compute for training and\nhosting): EUR 280K - External consulting and dataset licensing: EUR 90K -\nContingency (5%): EUR 50K\n\nJames was enthusiastic -- he said the AI angle is coming up in almost every\nenterprise sales conversation and having an on-prem AI story would be a major\ndifferentiator. He estimated it could drive EUR 3-4M in incremental ARR in the\nfirst year after GA.",
+      "14. Frequently Asked Questions\n\n\nQ: Can I use NovaTech ProjectHub without NovaTech Insight? A: Yes. Both\nproducts are licensed independently. However, customers using both products\nbenefit from native integration, bundled pricing (15% discount), and the\nenhanced Shared Analytics Dashboard in Insight.\n\nQ: What happens to my data if I downgrade from Professional to\nStarter? A: Data exceeding Starter tier limits enters a 90-day grace period."
+    ],
+    "context_sources": [
+      {
+        "source": "meeting_notes.pdf",
+        "page": 4,
+        "score": 0.7519
+      },
+      {
+        "source": "meeting_notes.pdf",
+        "page": 4,
+        "score": 0.7298
+      },
+      {
+        "source": "meeting_notes.pdf",
+        "page": 4,
+        "score": 0.726
+      },
+      {
+        "source": "meeting_notes.pdf",
+        "page": 4,
+        "score": 0.6601
+      },
+      {
+        "source": "meeting_notes.pdf",
+        "page": 4,
+        "score": 0.6551
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 3,
+        "score": 0.6336
+      },
+      {
+        "source": "meeting_notes.pdf",
+        "page": 8,
+        "score": 0.6051
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 28,
+        "score": 0.6
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "stop",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 953,
+    "tokens_generated": 63,
+    "retrieval_time_ms": 2110,
+    "generation_time_ms": 4513,
+    "passed": null,
+    "rating_note": ""
+  },
+  {
+    "id": "q12",
+    "question": "When is a Data Protection Impact Assessment (DPIA) mandatory, and who reviews and receives escalations?",
+    "expected_answer": "A DPIA is mandatory before high-risk processing such as large-scale processing of special category data, systematic monitoring of public areas, automated decision-making with legal or significant effects, or processing personal data with new technologies. The DPO reviews all DPIA findings and escalates unresolved risks to the CISO and General Counsel.",
+    "actual_answer": "Based on the provided context, here are the answers regarding DPIAs and review/escalation responsibilities:\n\n**When is a DPIA Mandatory?**\nA Data Protection Impact Assessment (DPIA) is mandatory before implementing any new processing activity that is likely to result in a high risk to the rights and freedoms of natural persons. Specific triggers for a mandatory DPIA include:\n*   Large-scale processing of special category data.\n*   Systematic monitoring of public areas.\n*   Automated decision-making with legal or similarly significant effects.\n*   Processing of personal data involving new technologies.\n\n**Who Reviews and Receives Escalations?**\n*   **DPIA Review:** The Data Protection Officer (DPO) reviews all DPIAs.\n*   **Breach Register Review:** The Breach Register is reviewed by the Chief Information Security Officer (CISO) and the DPO monthly.\n*   **Incident Escalation:** If a preliminary assessment indicates that customer data was accessed, the incident is automatically escalated to **P1**. While the specific individual receiving this P1 escalation is not named in the text provided for that specific section, the **Security Operations Lead** is responsible for notifying the DPO and General Counsel within 2 hours of confirmation, and DLP alerts are reviewed by the **Security Operations team**.",
+    "retrieved_context": [
+      "A Data Protection Impact Assessment (DPIA) is required before implementing any\nnew processing activity that is likely to result in a high risk to the rights and\nfreedoms of natural persons. Triggers for a mandatory DPIA include: large-scale\nprocessing of special category data, systematic monitoring of public areas,\nautomated decision-making with legal or similarly significant effects, and\nprocessing of personal data involving new technologies. The DPO reviews all DPIA",
+      "All data subject requests are logged in the DSR Tracking System, and completion\nis verified by the DPO.\n\n8.4 Data Protection Impact Assessments",
+      "9.4 Breach Register\n\nAll personal data breaches — regardless of whether they trigger notification\nobligations — are documented in the Breach Register maintained by the DPO.\nEach entry includes: the facts of the breach, its effects, and the remedial actions\ntaken. The Breach Register is reviewed by the CISO and DPO monthly and is\navailable for inspection by supervisory authorities upon request.\n\n\n10. Training and Awareness",
+      "8. GDPR Compliance Procedures\n\n8.1 Applicability\n\nNovaTech processes personal data of individuals located in the European\nEconomic Area (EEA) and the United Kingdom. As such, NovaTech complies with\nthe General Data Protection Regulation (EU) 2016/679 (\"GDPR\") and the UK\nGDPR. The Data Protection Officer (DPO) serves as the primary point of contact\nfor all GDPR-related matters and can be reached at dpo@novatech.io.\n\n8.2 Lawful Basis for Processing",
+      "12. Data Protection and Confidentiality\n\n\nNovaTech Solutions processes personal data in compliance with the General\nData Protection Regulation (GDPR), the California Consumer Privacy Act\n(CCPA), and other applicable data protection laws. Our Data Protection Officer\n(DPO) can be reached at dpo@novatech-solutions.com.\n\nConfidential Information",
+      "9. Breach Notification\n\n9.1 Internal Notification\n\nUpon confirmation of a personal data breach, the Security Operations Lead must\nnotify the DPO and the General Counsel within 2 hours. The DPO assesses\nwhether the breach is likely to result in a risk to the rights and freedoms of\nnatural persons and determines the notification obligations.\n\n9.2 Regulatory Notification",
+      "must be provided to the CISO every 2 hours until the incident is downgraded or\nresolved. If the preliminary assessment indicates that customer data was\naccessed, the incident is automatically escalated to P1.",
+      "5.3 Data Loss Prevention\n\nNovaTech deploys Data Loss Prevention (DLP) controls across email, cloud\nstorage, and endpoint systems. DLP rules are configured to detect and block the\nunauthorized transmission of Confidential and Restricted data. DLP alerts are\nreviewed by the Security Operations team within 4 business hours. Confirmed\nviolations are treated as security incidents and classified according to the\nseverity framework in Section 4.2."
+    ],
+    "context_sources": [
+      {
+        "source": "security_policy.pdf",
+        "page": 13,
+        "score": 0.8809
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 13,
+        "score": 0.7475
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 14,
+        "score": 0.6882
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 12,
+        "score": 0.6849
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 15,
+        "score": 0.6782
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 13,
+        "score": 0.6595
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 6,
+        "score": 0.659
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 9,
+        "score": 0.6585
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "stop",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 832,
+    "tokens_generated": 273,
+    "retrieval_time_ms": 2125,
+    "generation_time_ms": 9249,
+    "passed": null,
+    "rating_note": ""
+  },
+  {
+    "id": "q13",
+    "question": "How does the remote work policy decided in the leadership meeting notes differ from the January 2026 Employee Handbook?",
+    "expected_answer": "The Employee Handbook allows up to 3 remote work days per week (and 1 day/week during the 6-month probation), whereas the leadership meeting notes record a decision updating the policy to up to 4 remote work days per week effective Q3 2026, with Tuesday as the mandatory company-wide in-office day.",
+    "actual_answer": "Based on the provided context, here are the differences between the policy decided in the leadership meeting notes and the January 2026 Employee Handbook:\n\n**1. Maximum Remote Days per Week**\n*   **January 2026 Employee Handbook:** Allows employees to work remotely for up to **three (3) days** per week (subject to manager approval).\n*   **Leadership Meeting Decision:** Updates the policy to allow up to **four days** remote per week.\n\n**2. Mandatory In-Office Days**\n*   **January 2026 Employee Handbook:** Specifies **Tuesday and Thursday** as mandatory in-office days.\n*   **Leadership Meeting Decision:** Establishes only **Tuesday** as the mandatory in-office day company-wide (dropping Thursday).\n\n**3. Departmental Flexibility**\n*   **January 2026 Employee Handbook:** Mentions \"manager approval\" for the three-day limit but does not explicitly detail a tiered system where departments can set stricter requirements based on role needs.\n*   **Leadership Meeting Decision:** Explicitly allows **department heads** to set additional in-office requirements (up to 2 days) if justified by role requirements, provided they get HR approval.\n\n**4. Effective Date**\n*   **January 2026 Employee Handbook:** Implicitly reflects the policy as it existed at that time (allowing 3 days).\n*   **Leadership Meeting Decision:** The change is effective in **Q3 2026**.",
+    "retrieved_context": [
+      "Marcus supported the change and noted that the IT infrastructure already\nsupports full remote -- VPN capacity was expanded in 2024 and all employees\nhave company laptops. No additional investment needed.\n\nDecision: Remote work policy updated to allow up to 4 days remote per week,\neffective Q3 2026. Tuesday remains the mandatory in-office day company-wide.\nDepartment heads may set additional in-office requirements with HR approval.\nAisha to update the employee handbook and communicate the change by March\n20.",
+      "1. Remote Work Policy Update\n\nAisha opened with a review of the current remote work policy and employee\nsatisfaction data. Current policy allows up to 3 days remote per week, with\nTuesday and Thursday as mandatory in-office days.",
+      "Meeting 3: Remote Work Policy, Security Updates\n& AI Investment\n\n\nDate: March 5, 2026 Time: 10:00 -- 13:00 CET Location: Conference Room A\n(Munich HQ) / Teams hybrid Attendees: - Sarah Chen (CEO) -- in person - Marcus\nWeber (CTO) -- in person - Elena Rossi (VP Engineering) -- remote (Lisbon --\nscouting the new office) - James Park (VP Sales) -- in person (visiting Munich) -\nAisha Patel (Head of HR) -- in person\n\n1. Remote Work Policy Update",
+      "Key data points from the February employee survey (82% response\nrate): - 71% of employees want more remote flexibility - 18% said the current\npolicy is fine - 11% actually want more in-office time - Voluntary attrition in H2\n2025 was 14%, with \"flexibility\" cited as the #2 reason for leaving (after\ncompensation) - Competitor analysis shows 60% of comparable companies in\nDACH offer 4+ remote days",
+      "Sarah liked the idea of a company-wide baseline with departmental flexibility.\nShe proposed: company policy moves to 4 days remote / 1 day in-office\n(Tuesday) as the default, but department heads can require up to 2 in-\noffice days if justified by role requirements. James said that works for him --\nhe would keep Sales at 2 days in-office (Tuesday and Thursday).",
+      "Location Restrictions\n\nRemote work must be performed from the employee's registered country of\nemployment. Working from a different country for more than five (5)\nconsecutive business days requires prior approval from HR due to tax and\nsocial security implications. Requests for extended cross-border remote work\nmust be submitted at least four (4) weeks in advance.",
+      "Aisha recommended expanding remote work from 3 days to 4 days per week,\nwith only Tuesday as the mandatory in-office day (dropping Thursday). This\nwould take effect Q3 2026 to align with the Lisbon office opening, since Lisbon\nemployees will be fully remote relative to Munich anyway.",
+      "4. Remote and Hybrid Work Policy\n\n\nNovaTech Solutions supports hybrid work arrangements. Employees in eligible\nroles may work remotely for up to three (3) days per week, subject to\nmanager approval.\n\nEligibility"
+    ],
+    "context_sources": [
+      {
+        "source": "meeting_notes.pdf",
+        "page": 7,
+        "score": 0.754
+      },
+      {
+        "source": "meeting_notes.pdf",
+        "page": 6,
+        "score": 0.725
+      },
+      {
+        "source": "meeting_notes.pdf",
+        "page": 6,
+        "score": 0.6792
+      },
+      {
+        "source": "meeting_notes.pdf",
+        "page": 6,
+        "score": 0.6792
+      },
+      {
+        "source": "meeting_notes.pdf",
+        "page": 6,
+        "score": 0.6563
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 4,
+        "score": 0.6561
+      },
+      {
+        "source": "meeting_notes.pdf",
+        "page": 6,
+        "score": 0.6555
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 4,
+        "score": 0.6409
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "stop",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 879,
+    "tokens_generated": 319,
+    "retrieval_time_ms": 2118,
+    "generation_time_ms": 10354,
+    "passed": null,
+    "rating_note": ""
+  },
+  {
+    "id": "q14",
+    "question": "What do the documents say about NovaTech's Lisbon office capacity, expansion plans, and core collaboration hours?",
+    "expected_answer": "The Employee Handbook lists ~110 employees at Avenida da Liberdade 245 in Lisbon. The January 2026 meeting notes describe a 2,000 sqm lease in Parque das Nacoes starting April 1 with initial capacity for 45 people (expandable to 80) and set core collaboration hours of 10:00-15:00 CET. The Q1 2026 report requests EUR 120K for additional floor space in Parque das Nacoes for 40 seats.",
+    "actual_answer": "Based on the provided documents, here is the information regarding NovaTech's Lisbon office:\n\n**Office Capacity and Expansion Plans**\n*   **Current/Planned Capacity:** The quarterly report states the office has a capacity for up to 40 employees and plans to grow the team to 35 by year-end. However, meeting notes indicate an initial capacity of 45 people that is expandable to 80.\n*   **Expansion Approval:** There was approval to sign a lease extension securing additional floor space in the Parque das Nacoes building to enable growth to 40 seats. This expansion carries an estimated incremental annual lease cost of EUR 120K.\n*   **Lease Details:** A lease for a 2,000 sqm space in Parque das Nacoes was signed with occupancy starting April 1.\n\n**Core Collaboration Hours**\n*   Employees must be reachable via Slack and email during core collaboration hours. The specific times for these hours are not detailed in the provided text.",
+    "retrieved_context": [
+      "The Lisbon office opened on January 15, 2026, in the Parque das Nacoes business\ndistrict. Initial staffing focused on backend engineering and product design roles\nsupporting the Insight product line and the NovaTech Copilot initiative. The office\nhas capacity for up to 40 employees, and we plan to grow the Lisbon team to 35\nby year-end.\n\n6.3 Key Hires",
+      "2. Lisbon Office Expansion: Approval to sign a lease extension securing\n       additional floor space in the Parque das Nacoes building, enabling growth to\n       40 seats. Estimated incremental annual lease cost: EUR 120K.",
+      "9. Integration Capabilities\n\n\nNovaTech maintains pre-built integrations with major enterprise platforms.\nIntegrations are configured in the workspace settings under the \"Integrations\"\ntab.",
+      "Table of Contents\n\n\n   1. Company Overview\n   2. NovaTech ProjectHub\n   3. NovaTech Insight\n   4. Shared Analytics Dashboard\n   5. Pricing and Plans\n   6. Feature Comparison by Tier\n   7. Service Level Agreements\n   8. API Reference and Rate Limits\n   9. Integration Capabilities\n 10. Data Management and Export\n 11. Security and Compliance\n 12. Deployment Options\n 13. Support and Onboarding\n 14. Frequently Asked Questions\n\n\n1. Company Overview",
+      "• Lease signed for a 2,000 sqm space in Parque das Nacoes, occupancy\n      starting April 1\n    • Initial capacity for 45 people, expandable to 80\n    • Average engineering salary in Lisbon is roughly 35-40% lower than Munich\n    • Strong local talent pool from IST and University of Lisbon\n    • Portugal's favorable tax regime for tech companies",
+      "fiscal year 2025, NovaTech Solutions achieved annual recurring revenue of\napproximately €17 million.\n\nThis handbook outlines the policies, benefits, and expectations that apply to all\nNovaTech Solutions employees regardless of location or role. It supplements but\ndoes not replace your individual employment contract. In the event of a conflict\nbetween this handbook and your employment contract, the terms of the\nemployment contract shall prevail.",
+      "• Employees must have a stable internet connection (minimum 25 Mbps\n      download, 5 Mbps upload).\n    • A dedicated, ergonomic workspace is recommended. NovaTech offers a one-\n      time home office setup allowance of €500 for employees approved for\n      regular remote work (see Section 6).\n    • Employees must be reachable via Slack and email during core collaboration\n      hours.\n    • All remote work must comply with IT security policies (see Section 11),",
+      "1.2 Scope\n\nThis policy applies to all NovaTech employees, contractors, temporary staff,\ninterns, and third-party service providers who access, process, store, or transmit\nNovaTech information assets. It covers all information systems, networks,\napplications, and data repositories operated by or on behalf of NovaTech,\nincluding cloud-hosted infrastructure, on-premises systems, and employee\nendpoints.\n\n1.3 Policy Authority"
+    ],
+    "context_sources": [
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 9,
+        "score": 0.7469
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 12,
+        "score": 0.7358
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 19,
+        "score": 0.7226
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 1,
+        "score": 0.7209
+      },
+      {
+        "source": "meeting_notes.pdf",
+        "page": 2,
+        "score": 0.7206
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 2,
+        "score": 0.7181
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 4,
+        "score": 0.7177
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 1,
+        "score": 0.7162
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "stop",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 897,
+    "tokens_generated": 211,
+    "retrieval_time_ms": 2118,
+    "generation_time_ms": 7814,
+    "passed": null,
+    "rating_note": ""
+  },
+  {
+    "id": "q15",
+    "question": "How is NovaTech responding to the competitive threat from Planwise and the EU AI Act requirements?",
+    "expected_answer": "To counter Planwise Intelligence, NovaTech plans to accelerate ProjectHub v3.3 AI capabilities, increase sales battle cards, commission an analyst comparison report, and request EUR 150K in Q2 marketing spend. For the EU AI Act, NovaTech's AI features are expected to fall under 'limited risk' transparency obligations, with EUR 85K budgeted in H2 2026 for compliance.",
+    "actual_answer": "Based on the provided documents, NovaTech is responding to these challenges in the following ways:\n\n**Response to Competitive Threat (Planwise):**\n*   **Strategic Assessment:** While acknowledging that Planwise's marketing has been aggressive and effective (resulting in losing one Professional-tier prospect with EUR 6.5K ACV), management notes that Planwise's AI features are currently \"less mature\" than NovaTech's own ProjectHub AI Task Prioritization Engine.\n*   **Product Differentiation:** To maintain a competitive edge, the company plans to accelerate its product roadmap by shipping **ProjectHub v3.3** with expanded AI capabilities by the end of May and beginning closed beta recruitment for the planned **NovaTech Copilot**.\n*   **Infrastructure Investment:** To ensure development velocity and avoid reliance on third-party providers, NovaTech has received authorization to establish a dedicated GPU compute environment for NovaTech Copilot development and deployment, estimated at EUR 280K for Q2-Q3.\n\n**Response to EU AI Act Requirements:**\n*   **Classification Strategy:** The company anticipates that its current **AI Task Prioritization Engine** and the planned **NovaTech Copilot** will fall under the \"limited risk\" classification.\n*   **Compliance Planning:** Legal & Compliance is actively tracking requirements and has budgeted **EUR 85K** for compliance implementation in H2 2026 to meet transparency obligations (specifically ensuring users are informed they are interacting with AI-generated recommendations).",
+    "retrieved_context": [
+      "7.4 Regulatory\n\nThe EU AI Act implementation timeline continues to evolve. Our AI Task\nPrioritization Engine and the planned NovaTech Copilot will likely fall under\n\"limited risk\" classification, requiring transparency obligations (users must be\ninformed they are interacting with AI-generated recommendations). Legal &\nCompliance is tracking requirements and has budgeted EUR 85K for compliance\nimplementation in H2 2026.\n\n\n8. Strategic Priorities for Q2 2026",
+      "7. Risk Factors\n\n7.1 Competitive Threat: Planwise\n\nPlanwise, a venture-backed competitor (Series B, USD 45M raised), launched\n\"Planwise Intelligence\" on March 22, 2026. This feature set includes AI-driven\nproject forecasting, automated resource allocation, and natural language project\nquerying -- capabilities that overlap significantly with our ProjectHub AI features\nand our planned NovaTech Copilot.",
+      "Assessment: Planwise's AI features are currently less mature than our AI Task\nPrioritization Engine based on our competitive analysis, but their marketing has\nbeen aggressive and effective. We have already encountered Planwise in two\nEnterprise evaluations in Q1 where they were not previously present. We lost one\nProfessional-tier prospect (EUR 6.5K ACV) to Planwise in March.",
+      "3. AI Infrastructure Investment: Authorization to establish a dedicated GPU\n       compute environment for NovaTech Copilot development and deployment.\n       Estimated Q2-Q3 cost: EUR 280K. This investment is critical to maintaining\n       our AI development velocity and avoiding dependency on third-party API\n       providers for production model serving.\n\n\nAppendix A: Q1 2026 Financial Statements\nSummary\n\n\nDetailed financial statements are provided under separate cover by the Finance\ndepartment.",
+      "Please read this handbook carefully and direct any questions to your manager or\nto the Human Resources team at hr@novatech-solutions.com.\n\n\n2. Mission, Vision, and Values\n\nMission\n\nTo empower organizations with intelligent project management and analytics\ntools that turn complexity into clarity.\n\nVision\n\nBy 2030, NovaTech Solutions aims to be the leading European B2B SaaS provider\nfor integrated project intelligence, serving 10,000 enterprise customers\nworldwide.\n\nCore Values",
+      "2. Accelerate AI Differentiation: Ship ProjectHub v3.3 with expanded AI\n      capabilities by end of May. Begin closed beta recruitment for NovaTech\n      Copilot. Target: 15 beta commitments from existing Enterprise customers.\n\n   3. Scale Lisbon Office: Hire 8-10 additional engineers in Lisbon by end of\n      Q2. Establish Lisbon as the center of excellence for AI/ML development.",
+      "and mitigate its effects. If direct notification is disproportionately difficult (e.g.,\ncontact details are unavailable), NovaTech will issue a public communication\nthrough its website and, where appropriate, social media channels.\n\n9.4 Breach Register",
+      "NovaTech is fully GDPR compliant:\n\n    • Data Processing Agreement (DPA) included with all contracts\n    • Right to deletion: personal data can be purged within 72 hours of a verified\n       request\n    • Data subject access requests processed within 30 days\n    • Privacy impact assessment documentation available on request\n    • EU data residency available by default (Frankfurt data center); other regions\n       available on Enterprise tier\n    • Cookie consent management for embedded analytics"
+    ],
+    "context_sources": [
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 11,
+        "score": 0.7844
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 10,
+        "score": 0.7797
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 10,
+        "score": 0.7195
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 12,
+        "score": 0.6909
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 2,
+        "score": 0.6832
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 11,
+        "score": 0.6791
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 14,
+        "score": 0.6759
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 24,
+        "score": 0.6717
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "stop",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 969,
+    "tokens_generated": 311,
+    "retrieval_time_ms": 2122,
+    "generation_time_ms": 10213,
+    "passed": null,
+    "rating_note": ""
+  },
+  {
+    "id": "q16",
+    "question": "How did NovaTech's ARR change from FY 2025 to Q1 2026, and how did Q1 2026 ARR compare to target?",
+    "expected_answer": "FY 2025 ARR was approximately EUR 17M (Employee Handbook). By Q1 2026, ARR reached EUR 18.2M (23% YoY growth), exceeding the Q1 2026 target of EUR 17.5M.",
+    "actual_answer": "Based on the provided documents:\n\n*   **Change from FY 2025 to Q1 2026:** NovaTech's Annual Recurring Revenue (ARR) increased from approximately **€17 million** at the end of fiscal year 2025 to **€18.2 million** at the end of Q1 2026. This represents a **23% year-over-year increase**.\n*   **Comparison to Target:** The Q1 2026 ARR performance was listed as **\"Above target\"** in the Customer Metrics table.\n\n*(Note: While the document states the ARR reached €18.2 million at quarter-end, it does not explicitly state a specific revenue target for Q1 2026 in the text, though the metric \"Above target\" confirms it exceeded expectations.)*",
+    "retrieved_context": [
+      "1. Executive Summary\n\n\nNovaTech Solutions delivered a strong first quarter in 2026, continuing the\ngrowth trajectory established in the second half of 2025. Annual Recurring\nRevenue (ARR) reached EUR 18.2 million at quarter-end, representing a 23%\nyear-over-year increase from EUR 14.8 million at the close of Q1 2025. Quarterly\nrecognized revenue came in at EUR 4.8 million, exceeding our internal forecast of\nEUR 4.6 million by approximately 4%.",
+      "2.4 Cash Position\n\nCash and cash equivalents at quarter-end stood at EUR 6.1M, down from EUR\n6.8M at the end of Q4 2025. The decrease reflects the Lisbon office investment\nand accelerated hiring. At the current burn rate, NovaTech maintains\napproximately 16 months of runway without additional revenue growth, though\nour trajectory suggests continued cash generation. No additional fundraising is\nplanned for 2026.\n\n\n3. Customer Metrics\n\n3.1 Customer Base Overview",
+      "ARR Growth (YoY)                          23%                     20%                     Above target\n\n  Net Revenue Retention                 112%                   110%                   Above target\n\n  Gross Churn (Quarterly)                3.2%                    2.5%                    Below target\n\n  New ACV                                        EUR 1.9M             EUR 1.7M             Above target",
+      "fiscal year 2025, NovaTech Solutions achieved annual recurring revenue of\napproximately €17 million.\n\nThis handbook outlines the policies, benefits, and expectations that apply to all\nNovaTech Solutions employees regardless of location or role. It supplements but\ndoes not replace your individual employment contract. In the event of a conflict\nbetween this handbook and your employment contract, the terms of the\nemployment contract shall prevail.",
+      "6.1 Headcount Summary\n\nNovaTech Solutions ended Q1 2026 with 412 full-time employees, up from 374 at\nthe end of Q4 2025. We hired 38 new team members during the quarter against\na target of 35.\n\n\n  Department                          Headcount (Q1 End)         Q1 Hires       % of Total\n\n  Engineering                               156                                       18                  37.9%\n\n  Product & Design                      34                                         4                    8.3%",
+      "Analytics query history         7 days            30 days                 90 days\n\n10.4 Data Portability\n\nNovaTech is committed to data portability. Customers can export all their data at\nany time, including:",
+      "3.3 Quarterly Access Reviews\n\nNovaTech conducts mandatory access reviews on a quarterly basis (Q1: January,\nQ2: April, Q3: July, Q4: October). During each review cycle:",
+      "1. Progress against OKRs (Objectives and Key Results): Each employee\n      sets 3–5 OKRs per quarter in collaboration with their manager.\n   2. Values alignment: A brief discussion of how the employee has\n      demonstrated NovaTech's core values.\n   3. Development goals: Review of professional development activities and\n      skills growth.\n   4. Feedback exchange: Bidirectional feedback — the employee also\n      provides feedback on management and team dynamics."
+    ],
+    "context_sources": [
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 1,
+        "score": 0.7685
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 3,
+        "score": 0.6862
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 13,
+        "score": 0.6812
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 2,
+        "score": 0.6811
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 8,
+        "score": 0.6732
+      },
+      {
+        "source": "product_guide.pdf",
+        "page": 23,
+        "score": 0.6713
+      },
+      {
+        "source": "security_policy.pdf",
+        "page": 5,
+        "score": 0.6655
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 10,
+        "score": 0.6628
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "stop",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 978,
+    "tokens_generated": 175,
+    "retrieval_time_ms": 2169,
+    "generation_time_ms": 7054,
+    "passed": null,
+    "rating_note": ""
+  },
+  {
+    "id": "q17",
+    "question": "Exactly how many weeks of paid parental leave do employees in the Munich office receive?",
+    "expected_answer": "The documents do not specify the number of weeks of parental leave; the Employee Handbook states only that parental leave is per local statutory requirements with 8 weeks' notice to HR.",
+    "actual_answer": "I cannot find this information in the provided documents. The context mentions that Parental Leave duration is \"Per local statutory requirements\" and refers to country-specific addendums for details, but it does not specify the exact number of weeks for employees in the Munich office.",
+    "retrieved_context": [
+      "Sick Leave\n\nEmployees are entitled to ten (10) paid sick days per calendar year. A medical\ncertificate is required for absences exceeding three (3) consecutive working\ndays. Sick days do not carry over between calendar years.\n\nIn Germany, statutory sick pay provisions apply after the company sick leave\nentitlement is exhausted. Employees in Portugal and the United States should\nrefer to the country-specific addendum for details on statutory sick leave\nprovisions.",
+      "Additional Leave Types\n\n\n  Leave Type         Duration                              Conditions\n\n  Parental Leave       Per local statutory                    Notify HR at least 8 weeks before\n                         requirements                         expected start\n\n\n  Marriage Leave      3 days                                      Must be taken within 30 days of theceremony",
+      "Team Days\n\nEach team must designate at least one (1) mandatory in-office day per\nweek for collaborative work. These team days are set by the team lead and\ncommunicated at the start of each quarter.\n\n\n5. Leave and Time-Off Policy\n\nAnnual Leave (Paid Time Off)\n\nAll full-time employees receive twenty-five (25) days of paid time off (PTO) per\ncalendar year, in addition to public holidays observed at their respective office\nlocation. Part-time employees receive PTO on a pro-rata basis.",
+      "PTO requests should be submitted via NovaHR at least two (2) weeks in\nadvance for absences of three (3) or more consecutive days, and at least three\n(3) business days in advance for shorter absences. Managers may decline\nrequests during critical business periods, provided reasonable alternative dates\nare offered.\n\nSick Leave",
+      "Aisha recommended expanding remote work from 3 days to 4 days per week,\nwith only Tuesday as the mandatory in-office day (dropping Thursday). This\nwould take effect Q3 2026 to align with the Lisbon office opening, since Lisbon\nemployees will be fully remote relative to Munich anyway.",
+      "Eligibility\n\nAll employees who have completed their probationary period (six months) are\neligible for hybrid work unless their role requires physical presence (e.g., office\nmanagement, facilities, on-site IT support). Employees still within their\nprobationary period may work remotely for up to one (1) day per week with\nmanager approval.\n\nApproval Process",
+      "PTO accrues monthly (2.083 days per month). Employees may use PTO before it\nhas fully accrued, subject to manager approval. The maximum negative PTO\nbalance permitted is five (5) days.\n\nCarryover: Unused PTO may be carried over to the following calendar year, up\nto a maximum of five (5) days. Carried-over days must be used by March 31\nof the following year. Any unused carried-over days beyond this date will be\nforfeited unless prohibited by local employment law.",
+      "Standard Working Hours\n\nNovaTech Solutions operates on a flexible schedule model. The standard work\nweek is 40 hours (38.5 hours for employees on German contracts). All employees\nmust be available during the core collaboration window of 10:00–15:00 CET\n(Central European Time) on working days, unless otherwise agreed with their\nmanager. Outside these core hours, employees may arrange their schedule to\nsuit personal preferences and local requirements."
+    ],
+    "context_sources": [
+      {
+        "source": "company_handbook.pdf",
+        "page": 5,
+        "score": 0.7078
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 6,
+        "score": 0.6997
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 5,
+        "score": 0.6679
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 5,
+        "score": 0.6465
+      },
+      {
+        "source": "meeting_notes.pdf",
+        "page": 6,
+        "score": 0.6189
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 4,
+        "score": 0.6187
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 5,
+        "score": 0.6059
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 3,
+        "score": 0.5942
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "stop",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 899,
+    "tokens_generated": 54,
+    "retrieval_time_ms": 2123,
+    "generation_time_ms": 4229,
+    "passed": null,
+    "rating_note": ""
+  },
+  {
+    "id": "q18",
+    "question": "What is CEO Sarah Chen's annual base salary and equity compensation package?",
+    "expected_answer": "The provided documents do not contain information about Sarah Chen's salary or equity compensation.",
+    "actual_answer": "I cannot find this information in the provided documents.",
+    "retrieved_context": [
+      "NovaTech Solutions GmbH Leopoldstraße 120, 80802 Munich, Germany\nHandelsregister: HRB 231847 (Amtsgericht Munich) Geschäftsführer: Sarah Chen\n(CEO), Marcus Weber (CTO), Priya Anand (CFO)\n\nFor questions about this handbook, contact: hr@novatech-solutions.com",
+      "NovaTech Solutions -- Quarterly\nBusiness Report\n\n\nQ1 2026 (January -- March)\n\n\nClassification: Internal -- Board & Leadership Distribution Only\n\nPrepared by: Office of the CFO | Approved by: Sarah Chen, CEO\n\nReport Date: April 14, 2026\n\n\n1. Executive Summary",
+      "Headcount update (Aisha): 19 of 28 Q1 hires completed. 6 more in offer\nstage. 3 roles still in active sourcing (the 2 AI/ML specialists and 1 Lisbon office\nmanager). The AI roles have been challenging -- strong candidates are getting\n3-4 competing offers. Aisha suggested increasing the compensation band for\nthese roles by 10-15%. Sarah approved on the spot.",
+      "1. Q1 Hiring Targets\n\nSarah opened with an overview of headcount planning for Q1. Current employee\ncount stands at 396 as of January 1, with approved budget for 28 new hires\nacross departments.",
+      "fiscal year 2025, NovaTech Solutions achieved annual recurring revenue of\napproximately €17 million.\n\nThis handbook outlines the policies, benefits, and expectations that apply to all\nNovaTech Solutions employees regardless of location or role. It supplements but\ndoes not replace your individual employment contract. In the event of a conflict\nbetween this handbook and your employment contract, the terms of the\nemployment contract shall prevail.",
+      "The annual review directly informs compensation adjustments (effective\nMarch 1 of the following year) and promotion decisions. Employees rated\n\"Developing\" or below are placed on a structured Performance Improvement Plan\n(PIP) lasting sixty (60) to ninety (90) days, with bi-weekly progress reviews.\n\nNovaStar Awards",
+      "in setup and relocation costs) and increased headcount-related expenses from 38\nnew hires during the quarter.\n\n\n  Category                                                        Q1 2026             % of Revenue\n\n  Personnel (Salaries, Benefits, Equity)                   EUR 2.88M            60.0%\n\n  Infrastructure & Hosting                                       EUR 0.53M            11.0%\n\n  Sales & Marketing                                                EUR 0.58M            12.1%",
+      "8. Performance Management\n\n\nNovaTech Solutions uses a continuous performance management model built on\nregular feedback, clear goals, and transparent evaluation criteria.\n\nQuarterly Check-Ins\n\nEvery employee participates in a quarterly check-in with their direct manager.\nThese check-ins are scheduled in the first two weeks of January, April, July, and\nOctober. The check-in covers:"
+    ],
+    "context_sources": [
+      {
+        "source": "company_handbook.pdf",
+        "page": 17,
+        "score": 0.6079
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 1,
+        "score": 0.6053
+      },
+      {
+        "source": "meeting_notes.pdf",
+        "page": 9,
+        "score": 0.5911
+      },
+      {
+        "source": "meeting_notes.pdf",
+        "page": 1,
+        "score": 0.5848
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 2,
+        "score": 0.5727
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 11,
+        "score": 0.5618
+      },
+      {
+        "source": "quarterly_report_q1_2026.pdf",
+        "page": 3,
+        "score": 0.5605
+      },
+      {
+        "source": "company_handbook.pdf",
+        "page": 10,
+        "score": 0.5521
+      }
+    ],
+    "model": "qwen3.5:4b-q4_K_M",
+    "thinking": false,
+    "finish_reason": "stop",
+    "embedding_model": "nomic-embed-text",
+    "prompt_tokens": 850,
+    "tokens_generated": 11,
+    "retrieval_time_ms": 2120,
+    "generation_time_ms": 3110,
+    "passed": null,
+    "rating_note": ""
+  }
+]
