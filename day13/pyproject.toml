@@ -1,0 +1,10 @@
+[project]
+name = "day13"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "openai>=3.57.0",
+    "python-dotenv>=1.2.4",
+    "tavily-python>=0.8.5",
+]
