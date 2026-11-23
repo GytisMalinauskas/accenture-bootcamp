@@ -1,0 +1,80 @@
+{
+  "execution_summary": {
+    "start_time": "2026-11-23T16:36:07.194895",
+    "end_time": "2026-11-23T16:36:20.754585",
+    "duration_seconds": 13.56,
+    "total_events": 8
+  },
+  "events": [
+    {
+      "timestamp": "2026-11-23T16:36:07.194895",
+      "event_type": "CREW_START",
+      "agent": "System",
+      "details": {
+        "message": "Crew execution started"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T16:36:07.194895",
+      "event_type": "AGENT_INIT",
+      "agent": "Casting Director",
+      "details": {
+        "tools": [
+          "role_matcher",
+          "fetch_actor_database"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-11-23T16:36:07.194895",
+      "event_type": "AGENT_INIT",
+      "agent": "Schedule Coordinator",
+      "details": {
+        "tools": [
+          "actor_availability_checker"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-11-23T16:36:07.194895",
+      "event_type": "TASK_START",
+      "agent": "Casting Director",
+      "details": {
+        "task": "Shortlist actors for Dr. Lyra Vance"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T16:36:07.194895",
+      "event_type": "TASK_START",
+      "agent": "Schedule Coordinator",
+      "details": {
+        "task": "Check availability (2026-06-10 to 2026-07-20)"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T16:36:20.754584",
+      "event_type": "TASK_COMPLETE",
+      "agent": "Casting Director",
+      "details": {
+        "status": "success"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T16:36:20.754584",
+      "event_type": "TASK_COMPLETE",
+      "agent": "Schedule Coordinator",
+      "details": {
+        "status": "success"
+      }
+    },
+    {
+      "timestamp": "2026-11-23T16:36:20.754584",
+      "event_type": "CREW_END",
+      "agent": "System",
+      "details": {
+        "message": "Crew execution completed",
+        "duration_seconds": 13.56
+      }
+    }
+  ]
+}
